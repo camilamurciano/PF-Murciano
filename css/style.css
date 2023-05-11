@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**siempre declarar esto*/
+
+/**html{
+    font-size: 62.5%;
+}
+/**siempre hay que declarar esto */
+
+/**header{
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: azure;
+    font-size: 2em;
+}
+
+/** de esta manera es como yo puedo escribir un comentario/*
+/** clases:
+        camelCase= escribeUnaPalabra
+        kebabe= escribiendo-una-palabra
+        snake_case= escribiendo_una_palabra */
+
+/**font-family: 'Castoro Titling', cursive;
+        font-family: 'Roboto', sans-serif;
+*/
+/**display flex: se comporta en base a lo que diga flexbox
+flex direction: row; estan en linea o todo sobre el eje horizontal
+flex direction: columne; uno abajo del otro o en el eje y
+/**justify-content controla la alineación horizontal de un conjunto de elementos, 
+mientras que align-items controla su alineación vertical/**
+/**header*/
+
+.headerFoto {
+    background-image: url(../assets/img/camara.nikon.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px black;
+    
+}
+
+.headerFormulario {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: end;
+}
+.headerFormulario h1{
+
+    text-shadow: 3px 3px 5px white;
+    
+}
+
+.descripcion-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 750px;
+}
+
+.descripcion-1 p {
+    text-align: right;
+    font-size: 15px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 1px;
+    text-align: right;
+    background-size: contain;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    bottom: 50px;
+    margin-top: 0px;
+    color: black;
+    font-size: 100px;
+}
+
+/**main*/
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-buscador ul{
+    position: sticky;
+}
+nav {
+    padding: 40px;
+    background-color: #E6DDC6;
+    position: sticky;
+}
+
+.main-section {
+    background-color: #A19882;
+}
+
+.main-section li {
+    display: inline;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 120px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.container-1{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.bordeBoda {
+    background-color: #E6DDC6;
+}
+
+.bordeBook {
+    background-color: #E6DDC6;
+}
+
+.bordeEventos {
+    background-color: #E6DDC6;
+}
+
+.bordeContenido {
+    background-color: #E6DDC6;
+}
+
+.bordeContacto {
+    background-color: #E6DDC6;
+}
+
+.navBar ul {
+    background-color: #E6DDC6;
+    color: black;
+    position: sticky;
+}
+
+.navBar2 {
+    background-color: #A19882;
+    
+}
+
+.main-buscador li {
+    display: inline;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 120px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navBar2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.descripcion-index{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+.descripcion-index p {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 35px;
+    color: white;
+    margin-top: 0px;
+}
+
+
+.descripcion-1 p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.descripcion-1 {
+    background-color: #C2B8A3;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    padding-right: 00px;
+}
+
+.section-index {
+    background-image: url(../assets/img/photo-1618339665980-9fe338a21dcd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fotoFlor {
+
+    width: 350px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px 5px white;
+    
+}
+
+
+.bordeTexto p {
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.bordeTexto {
+    margin-top: 0px;
+}
+
+.bodyBook {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bodyBoda {
+    margin-top: 0px;
+}
+
+.bodyEventos {
+    margin-top: 0px;
+}
+
+.bodyContenido {
+    margin-top: 0px;
+}
+
+.bodyContacto {
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Castoro Titling', cursive;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img-index {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-book {
+    background-color: #C2B8A3;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-boda {
+    background-color: #C2B8A3;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-eventos {
+    background-color: #C2B8A3;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-contenido {
+    background-color: #C2B8A3;
+    display: flex;
+    flex-direction: column;
+}
+
+.corazon-embarazada {
+    position: relative;
+    left: 150px;
+    padding-left: 50px;
+    margin-top: 15px;
+    width: 262px;
+    height: 402px;
+}
+
+.mujeres-beso {
+    position: relative;
+    left: 850px;
+    margin-top: 15px;
+    width: 371px;
+    height: 486px;
+}
+
+.mujer-mirando {
+    position: relative;
+    left: 200px;
+    margin-top: 25px;
+    width: 169px;
+    height: 196px;
+}
+
+.hombre-nene {
+    position: relative;
+    left: 750px;
+    margin-top: 20px;
+    width: 480px;
+    height: 128px;
+}
+
+.pareja-mirandose {
+    position: relative;
+    left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 396px;
+    height: 182px;
+}
+
+.familia-feliz {
+    position: relative;
+    left: 200px;
+    margin-top: 40px;
+    width: 258px;
+    height: 384px;
+}
+
+.nene-sonriendo1 {
+    position: relative;
+    left: 750px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 212px;
+    height: 544px;
+}
+
+.hombre-panza {
+    position: relative;
+    left: 900px;
+    margin-top: 50px;
+    width: 339px;
+    height: 801px;
+}
+
+.pareja-mirandose {
+    position: relative;
+    left: 75px;
+    margin-top: 30px;
+    width: 669px;
+    height: 389px;
+}
+
+.mujer-panza {
+    position: relative;
+    left: 750px;
+    margin-top: 40px;
+    width: 455px;
+    height: 758px;
+}
+
+.pareja-mano {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    width: 405px;
+    height: 405px;
+
+}
+
+.familia-libreta {
+    position: relative;
+    left: 300px;
+    margin-top: 70px;
+    width: 813px;
+    height: 437px;
+}
+
+.casados-mirandose {
+    position: relative;
+    left: 100px;
+    margin-top: 80px;
+    width: 553px;
+    height: 834px;
+}
+
+.mujer-mirandomarido {
+    position: relative;
+    left: 700px;
+    margin-top: 50px;
+
+    width: 444px;
+    height: 444px;
+}
+
+.pareja-civil {
+    position: relative;
+    left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 385px;
+}
+
+.nene-sonriendo {
+    position: relative;
+    left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 363px;
+    height: 363px;
+}
+
+.familia-sonriendo {
+    position: relative;
+    left: 400px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 912px;
+    height: 357px;
+}
+
+.nene-mama {
+    position: relative;
+    left: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 590px;
+    height: 976px;
+}
+
+.nene-boca {
+    position: relative;
+    left: 650px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 584px;
+    height: 776px;
+}
+
+.marca-1 {
+    position: relative;
+    left: 750px;
+    margin-top: 40px;
+    width: 460px;
+    height: 460px;
+}
+
+.marca-2 {
+    position: relative;
+    left: 150px;
+    margin-top: 50px;
+    width: 460px;
+    height: 460px;
+}
+
+.marca-3 {
+    position: relative;
+    left: 750px;
+    margin-top: 50px;
+    width: 460px;
+    height: 460px;
+}
+
+.marca-4 {
+    position: relative;
+    left: 150px;
+    margin-top: 40px;
+    width: 460px;
+    height: 460px;
+}
+
+.marca-5 {
+    position: relative;
+    left: 750px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 460px;
+    height: 460px;
+}
+
+.mail-section {
+    background-color: #C2B8A3;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mail-1 {
+    background-color: #C2B8A3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/**footer*/
+
+.footerConsulta {
+    background-color: #A19882;
+    font-family: 'Castoro Titling', cursive;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    height: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.footer-section {
+    background-color: #E6DDC6;
+}
+
+.footer-1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1;
+}
+
+/**.footer-1 div{
+            font-size: 15px;
+            margin-top: 0px;
+            align-items: left;
+        }
+        */
+.footer-iconos {
+    display: flex;
+    justify-content: end;
+    
+
+}
+
+.footerBsas p {
+    color: black;
+    margin-top: 0px;
+}
+.whatsapp-1{
+    position: fixed;
+    bottom: 1px;
+    right: 68px;
+
+}
