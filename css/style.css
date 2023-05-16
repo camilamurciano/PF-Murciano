@@ -230,6 +230,63 @@ h2 {
     text-align: left;
     padding-right: 00px;
 }
+.descripcion-boda p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+}
+.descripcion-boda{
+    background-color: #C2B8A3;
+    background-size: cover;
+}
+.descripcion-contenido{
+    background-color: #C2B8A3;
+    background-size: cover;
+}
+.descripcion-contenido p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+}
+.descripcion-book{
+    background-color: #C2B8A3;
+    background-size: cover;
+}
+
+.secion-book{
+    background-color: #C2B8A3;
+    background-size: cover;
+}
+.descripcion-book p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+}
+.descripcion-eventos{
+    background-color: #C2B8A3;
+    background-size: cover;
+}
+.descripcion-eventos p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+}
 
 .section-index {
     background-image: url(../assets/img/photo-1618339665980-9fe338a21dcd.jpg);
@@ -240,7 +297,6 @@ h2 {
 }
 
 .fotoFlor {
-
     width: 350px;
     height: 300px;
     padding-top: 50px;
@@ -251,7 +307,43 @@ h2 {
     box-shadow: 5px 5px 5px 5px white;
     
 }
+.galeria-1{
+    width: 90%;
+    margin: auto;
 
+}
+/**.galeria-book{
+    display: grid;
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-area: 
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    
+    ;
+
+}
+*/
+.galeria-boda{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.galeria-contenido{
+    width: 90%;
+    margin: auto;
+    
+}
+.galeria-eventos{
+    width: 90%;
+    margin: auto;
+}
 
 .bordeTexto p {
     background-position: center;
@@ -302,66 +394,76 @@ h2 {
     flex-direction: column;
 }
 
-.img-book {
+/**.img-book {
     background-color: #C2B8A3;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
+*/
 
 .img-boda {
-    background-color: #C2B8A3;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
 
 .img-eventos {
     background-color: #C2B8A3;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
 }
 
 .img-contenido {
-    background-color: #C2B8A3;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
 }
-
+.img-index {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    }
 .corazon-embarazada {
-    position: relative;
-    left: 150px;
-    padding-left: 50px;
+    display: flex;
+    align-self: flex-start;
     margin-top: 15px;
     width: 262px;
     height: 402px;
 }
 
 .mujeres-beso {
-    position: relative;
-    left: 850px;
+    display: flex;
+    align-self: flex-end;
     margin-top: 15px;
     width: 371px;
     height: 486px;
 }
 
 .mujer-mirando {
-    position: relative;
-    left: 200px;
+    display: flex;
+    align-self: flex-start;
     margin-top: 25px;
     width: 169px;
     height: 196px;
 }
 
 .hombre-nene {
-    position: relative;
-    left: 750px;
+    display: flex;
+    align-self: flex-end;
     margin-top: 20px;
     width: 480px;
     height: 128px;
 }
 
 .pareja-mirandose {
-    position: relative;
-    left: 20px;
+    display: flex;
+    align-self: flex-start;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 396px;
@@ -369,92 +471,129 @@ h2 {
 }
 
 .familia-feliz {
-    position: relative;
-    left: 200px;
+    display: flex;
+    align-self: flex-end;
     margin-top: 40px;
     width: 258px;
     height: 384px;
 }
 
 .nene-sonriendo1 {
-    position: relative;
-    left: 750px;
+    display: flex;
+    align-self: center;
     margin-top: 20px;
     padding-bottom: 50px;
     width: 212px;
     height: 544px;
 }
+.galeria-book{
+    object-fit: cover;
+    display: grid;
+    width: 90%;
+    height: 90%;
+    grid-template-columns: repeat(8,1fr) ;
+    grid-template-rows: repeat(4,1fr);
+    grid-area: 
+    "img1" 
+    "img2"
+    "img3"
+    "img4"
+    
+    ;
+    justify-items: center;
+}
 
+
+.img-book{
+    grid-area: img1;
+    object-fit: cover;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
 .hombre-panza {
-    position: relative;
-    left: 900px;
     margin-top: 50px;
     width: 339px;
     height: 801px;
 }
 
+.img-book2{
+    grid-area: img2;
+    object-fit: cover;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
 .pareja-mirandose {
-    position: relative;
-    left: 75px;
-    margin-top: 30px;
     width: 669px;
     height: 389px;
 }
+.img-book3{
+    grid-area: img3;
+    object-fit: cover;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end:3;
+}
+.img-book4{
+    grid-area: img4;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    padding-bottom: 10px;
 
+}
 .mujer-panza {
-    position: relative;
-    left: 750px;
+
     margin-top: 40px;
     width: 455px;
     height: 758px;
 }
 
 .pareja-mano {
-    position: relative;
-    left: 100px;
+
     margin-top: 30px;
     width: 405px;
     height: 405px;
-
+    margin-bottom: 30px;
 }
 
 .familia-libreta {
-    position: relative;
-    left: 300px;
-    margin-top: 70px;
     width: 813px;
     height: 437px;
 }
 
 .casados-mirandose {
-    position: relative;
-    left: 100px;
-    margin-top: 80px;
+    display: flex;
+    align-self: flex-start;
+    padding-top: 30px;
     width: 553px;
     height: 834px;
 }
 
 .mujer-mirandomarido {
-    position: relative;
-    left: 700px;
-    margin-top: 50px;
-
+    display: flex;
+    align-self: flex-end;
     width: 444px;
     height: 444px;
 }
 
 .pareja-civil {
-    position: relative;
-    left: 100px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 50px;
     width: 800px;
     height: 385px;
 }
 
 .nene-sonriendo {
-    position: relative;
-    left: 200px;
+    display: flex;
+    align-self: flex-start;
     margin-top: 50px;
     margin-bottom: 40px;
     width: 363px;
@@ -462,68 +601,56 @@ h2 {
 }
 
 .familia-sonriendo {
-    position: relative;
-    left: 400px;
+    display: flex;
+    align-self: flex-end;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 912px;
     height: 357px;
 }
 
 .nene-mama {
-    position: relative;
-    left: 100px;
+    display: flex;
+    align-self: flex-start;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 590px;
     height: 976px;
 }
 
 .nene-boca {
-    position: relative;
-    left: 650px;
-    margin-top: 40px;
+    display: flex;
+    align-self: flex-end;
     margin-bottom: 50px;
     width: 584px;
     height: 776px;
 }
 
 .marca-1 {
-    position: relative;
-    left: 750px;
-    margin-top: 40px;
     width: 460px;
     height: 460px;
 }
 
 .marca-2 {
-    position: relative;
-    left: 150px;
-    margin-top: 50px;
+    align-self: flex-end;
     width: 460px;
     height: 460px;
 }
 
 .marca-3 {
-    position: relative;
-    left: 750px;
-    margin-top: 50px;
+    align-self: flex-start;
     width: 460px;
     height: 460px;
 }
 
 .marca-4 {
-    position: relative;
-    left: 150px;
-    margin-top: 40px;
+    align-self: flex-end;
     width: 460px;
     height: 460px;
 }
 
 .marca-5 {
-    position: relative;
-    left: 750px;
-    margin-top: 50px;
+    align-items: flex-start;
     margin-bottom: 50px;
     width: 460px;
     height: 460px;
@@ -594,3 +721,205 @@ h2 {
     right: 68px;
 
 }
+/**MEDIA/RESPONSIVE*/
+
+
+
+/**BODA/CIVIL*/
+
+@media (max-width: 820px){
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .familia-libreta{
+        display: flex;
+        align-self: center;
+        width: 613px;
+        margin-bottom: 15px;
+    }
+    .casados-mirandose{
+        margin-bottom: 15px;
+    }
+    .mujer-mirandomarido{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 794px){
+    .pareja-civil{
+        display: flex;
+        align-self: center;
+    }
+}
+
+@media (max-width:768px){
+    .navBar2{
+        background-color: beige;
+    }
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .familia-libreta{
+        display: flex;
+        align-self: center;
+        width: 613px;
+    }
+    .casados-mirandose{
+        display: flex;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .mujer-mirandomarido{
+        display: flex;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .pareja-civil{
+        display: flex;
+        align-self: flex-start;
+        width: 650px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:700){
+    .navBar2 li{
+        font-size: 20px;
+    }
+}
+    @media (max-width:668px){
+    .pareja-civil{
+        display: flex;
+        align-self: center;
+        margin-left: 50px;
+
+    }
+}
+@media (max-width:602px){
+    .familia-libreta{
+        width: 580px;
+        height: 415px;
+    }
+    .pareja-civil{
+        width: 600px;
+        height: 320px;
+    }
+}
+@media (max-width:578px){
+    .familia-libreta{
+        width: 540px;
+    }
+}
+@media (max-width: 588){
+    .familia-libreta{
+        width: 520px;
+        height: 400px;
+    }
+}
+@media (max-width:572px){
+    .familia-libreta{
+        width: 488px;
+        height: 400px;
+    }
+    .casados-mirandose{
+        width: 500px;
+        height: 720px;
+    }
+}
+@media (max-width:553px){
+    .container-1{
+        position: static;
+    }
+    .main-section ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ebdfc1;
+    }
+    .familia-libreta{
+        width: 480px;
+        height: 380px;
+    }
+    .casados-mirandose{
+        width: 400px;
+        height: 650px;
+    }
+    .mujer-mirandomarido{
+        width: 350px;
+        height: 350px;
+    }
+    .pareja-civil{
+        width: 500px;
+        height: 400px;
+    }
+}
+@media (max-width:483px){
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .familia-libreta{
+        width: 400px;
+        height: 300px;
+    }
+    .casados-mirandose{
+        width: 350px;
+        height: 600px;
+    }
+    .mujer-mirandomarido{
+        width: 300px;
+        height: 300px;
+    }
+    .pareja-civil{
+        width: 430px;
+        height: 300px;
+    }
+}
+@media (max-width: 417px){
+    .familia-libreta{
+        width:350px;
+        height: 280px;
+    }
+}
+@media (max-width:401px){
+    .casados-mirandose{
+        width: 280px;
+        height: 500px;
+
+    }
+    .pareja-civil{
+        width: 350px;
+        height: 220px;
+    }
+}
+@media (max-width:359px){
+    .mail-section ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .familia-libreta{
+        width: 270px;
+        height: 250px;
+    }
+    .casados-mirandose{
+        width: 220px;
+        height: 380px;
+    }
+    .mujer-mirandomarido{
+        width: 220px;
+        height: 220px;
+    }
+    .pareja-civil{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+
+
+
