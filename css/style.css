@@ -987,7 +987,85 @@ h2 {
         height: 680px;
     }
 }
-
+@media (max-width: 620px){
+    .familia-sonriendo{
+        width: 500px;
+        height: 250px;
+    }
+    
+}
+@media (max-width:520px){
+    .nene-sonriendo{
+        width: 320px;
+        height: 320px;
+    }
+    .familia-sonriendo{
+        width: 420px;
+        height: 200px;
+    }
+    .nene-mama{
+        width: 400px;
+        height: 580px;
+    }
+    .nene-boca{
+        width: 350px;
+        height: 450px;
+    }
+}
+@media (max-width: 444px){
+    .nene-sonriendo{
+        width: 290px;
+        height: 290px;
+    }
+    .familia-sonriendo{
+        width: 370px;
+        height: 170px;
+    }
+    .nene-mama{
+        width: 350px;
+        height: 500px;
+    }
+    .nene-boca{
+        width: 320px;
+        height: 400px;
+    }
+}
+@media (max-width:384px){
+    .nene-sonriendo{
+        width: 250px;
+        height: 250px;
+    }
+    .familia-sonriendo{
+        width: 330px;
+        height: 150px;
+    }
+    .nene-mama{
+        width: 320px;
+        height: 450px;
+    }
+    .nene-boca{
+        width: 290px;
+        height: 360px;
+    }
+}
+@media (max-width:348px){
+    .nene-sonriendo{
+        width: 220px;
+        height: 220px;
+    }
+    .familia-sonriendo{
+        width: 290px;
+        height: 120px;
+    }
+    .nene-mama{
+        width: 290px;
+        height: 420px;
+    }
+    .nene-boca{
+        width: 260px;
+        height: 320px;
+    }
+}
 
 
 
