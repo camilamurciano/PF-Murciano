@@ -919,6 +919,32 @@ h2 {
         height: 180px;
     }
 }
+/**RESPONSIVE EVENTOS*/
+@media (max-width: 995px){
+    .familia-sonriendo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    }
+@media (max-width: 978px){
+    .familia-sonriendo{
+        width: 840px;
+        height: 320px;
+    }
+    }
+@media (max-width:869px){
+    .familia-sonriendo{
+        width: 770px;
+        height: 300px;
+    }
+    .nene-mama{
+        width: 500px;
+        height: 880px;
+    }
+
+
+}
 
 
 
