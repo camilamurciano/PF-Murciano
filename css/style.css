@@ -942,9 +942,52 @@ h2 {
         width: 500px;
         height: 880px;
     }
-
-
 }
+@media (max-width: 812px){
+    .img-eventos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nene-sonriendo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+    .familia-sonriendo{
+        width: 650px;
+        height: 300px;
+    }
+    .nene-mama{
+        width: 500;
+        height: 750px;
+    }
+    .nene-boca{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 500px;
+        height: 600px;
+    }
+}
+@media (max-width:712px){
+    .familia-sonriendo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 580px;
+        height: 280px;
+    }
+    .nene-mama{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 490px;
+        height: 680px;
+    }
+}
+
 
 
 
