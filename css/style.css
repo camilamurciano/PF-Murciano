@@ -70,7 +70,7 @@ mientras que align-items controla su alineación vertical/**
 
 .descripcion-1 p {
     text-align: right;
-    font-size: 15px;
+    font-size: 16px;
     justify-content: center;
 }
 
@@ -920,13 +920,24 @@ h2 {
     }
 }
 /**RESPONSIVE EVENTOS*/
-@media (max-width: 995px){
+@media (max-width: 1024px){
     .familia-sonriendo{
         display: flex;
         flex-direction: column;
         align-self: center;
     }
+    .nene-mama{
+        width: 500px;
+        height: 750px;
     }
+    }
+    @media (max-width: 978px){
+        .familia-sonriendo{
+            width: 760px;
+            height: 300px;
+        }
+        }
+    /**
 @media (max-width: 978px){
     .familia-sonriendo{
         width: 840px;
@@ -971,22 +982,35 @@ h2 {
         height: 600px;
     }
 }
-@media (max-width:712px){
+*/
+@media (max-width:768px){
+    .nene-sonriendo{
+        width: 320px;
+        height: 320px;
+    }
     .familia-sonriendo{
         display: flex;
         flex-direction: column;
         align-self: center;
-        width: 580px;
-        height: 280px;
+        width: 425px;
+        height: 200px;
     }
     .nene-mama{
         display: flex;
         flex-direction: column;
-        align-self: center;
-        width: 490px;
-        height: 680px;
+        align-self: flex-start;
+        width: 390px;
+        height: 415px;
+    }
+    .nene-boca{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        width: 350px;
+        height: 450px;
     }
 }
+/**
 @media (max-width: 620px){
     .familia-sonriendo{
         width: 500px;
@@ -1012,7 +1036,8 @@ h2 {
         height: 450px;
     }
 }
-@media (max-width: 444px){
+*/
+@media (max-width: 425px){
     .nene-sonriendo{
         width: 290px;
         height: 290px;
@@ -1022,33 +1047,33 @@ h2 {
         height: 170px;
     }
     .nene-mama{
-        width: 350px;
-        height: 500px;
+        width: 290px;
+        height: 370px;
     }
     .nene-boca{
         width: 320px;
         height: 400px;
     }
 }
-@media (max-width:384px){
+@media (max-width:375px){
     .nene-sonriendo{
         width: 250px;
         height: 250px;
     }
     .familia-sonriendo{
-        width: 330px;
-        height: 150px;
+        width: 300px;
+        height: 130px;
     }
     .nene-mama{
-        width: 320px;
-        height: 450px;
+        width: 280px;
+        height: 350px;
     }
     .nene-boca{
-        width: 290px;
-        height: 360px;
+        width: 250px;
+        height: 320px;
     }
 }
-@media (max-width:348px){
+@media (max-width:320px){
     .nene-sonriendo{
         width: 220px;
         height: 220px;
@@ -1058,12 +1083,12 @@ h2 {
         height: 120px;
     }
     .nene-mama{
-        width: 290px;
-        height: 420px;
+        width: 210px;
+        height: 310px;
     }
     .nene-boca{
-        width: 260px;
-        height: 320px;
+        width: 230px;
+        height: 290px;
     }
 }
 
