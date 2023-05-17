@@ -754,6 +754,12 @@ h2 {
 }
 
 @media (max-width:768px){
+    .main-section li{
+        display: inline;
+        font-size: 17px;
+        padding: 20px;
+
+    }
     .navBar2{
         background-color: beige;
     }
@@ -984,6 +990,11 @@ h2 {
 }
 */
 @media (max-width:768px){
+    .mail-section li{
+        display: inline;
+        font-size: 17px;
+        padding: 20px;
+    }
     .nene-sonriendo{
         width: 320px;
         height: 320px;
@@ -1038,6 +1049,10 @@ h2 {
 }
 */
 @media (max-width: 425px){
+    .main-section li{
+        display: flex;
+        flex-direction: column;
+        }
     .nene-sonriendo{
         width: 290px;
         height: 290px;
