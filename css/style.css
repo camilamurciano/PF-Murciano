@@ -113,7 +113,7 @@ nav {
     text-align: center;
     width: 100%;
     height: 100px;
-    padding-left: 120px;
+    padding-left: 100px;
     padding-bottom: 1px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -809,11 +809,20 @@ nav {
     .img-boda{
         margin: 0;
     }
+    .casados-mirandose{
+        margin-bottom: 20px;
+    }
+    .mujer-mirandomarido{
+        margin-bottom: 20px;
+    }
     .pareja-civil{
         margin-top: 15px;
     }
 }
 @media (max-width: 820px){
+    .navBar2 li{
+        font-size: 18px;
+    }
     .img-boda{
         display: flex;
         flex-direction: column;
@@ -832,14 +841,23 @@ nav {
         margin-bottom: 15px;
     }
 }
-/**
+
 @media (max-width: 794px){
     .pareja-civil{
         display: flex;
         align-self: center;
     }
 }
-*/
+@media (max-width: 784px){
+    .casados-mirandose{
+        width: 470px;
+        height: 700px;
+    }
+    .pareja-civil{
+        width: 600px;
+        height: 300px;
+    }
+}
 @media (max-width:768px){
     .main-section li{
         display: inline;
@@ -882,12 +900,23 @@ nav {
     }
 }
 /**
-@media (max-width:700){
+@media (max-width:700px){
     .navBar2 li{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
-    @media (max-width:668px){
+*/
+@media (max-width: 744px){
+    .main-section li{
+        display: inline;
+        font-size: 17px;
+        padding: 20px;
+    }
+}
+@media (max-width:668px){
+    .galeria-boda{
+        margin: 0px;
+    }
     .pareja-civil{
         display: flex;
         align-self: center;
@@ -895,6 +924,18 @@ nav {
 
     }
 }
+@media (max-width: 660px){
+    .familia-libreta{
+        width: 520px;
+        height: 380px;
+    }
+    .pareja-civil{
+        width: 580px;
+        height: 320px;
+    }
+}
+
+/**
 @media (max-width:602px){
     .familia-libreta{
         width: 580px;
@@ -905,22 +946,83 @@ nav {
         height: 320px;
     }
 }
+*/
+@media (max-width: 645px){
+    .navBar2{
+        padding: 15px;
+    }
+    .main-section li{
+        display: inline;
+        padding: 15px;
+    }
+    .descripcion-boda p{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .galeria-boda{
+        margin: 0;
+    }
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+    }
+    .familia-libreta{
+        display: flex;
+        align-self: center;
+        padding-left: 25px;
+    }
+    .pareja-civil{
+        display: flex;
+        align-self: center;
+        
+    }
+}
+
+@media (max-width: 610px){
+    .descripcion-boda p{
+        text-align: center;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 598px){
+    .main-section ul{
+        padding: 12px;
+    }
+    .familia-libreta{
+        width: 500px;
+        height: 380px;
+    }
+    .pareja-civil{
+        width: 500px;
+        height: 350px;
+    }
+}
+@media (max-width: 581px){
+    .descripcion-boda p{
+        text-align: center;
+        padding-right: 20px;
+    }
+}
+
+/**
 @media (max-width:578px){
     .familia-libreta{
         width: 540px;
     }
 }
-@media (max-width: 588){
-    .familia-libreta{
-        width: 520px;
-        height: 400px;
-    }
-}
 */
+
 @media (max-width:572px){
+    .descripcion-boda{
+        text-align: center;
+        padding-right: 15px;
+        
+    }
     .familia-libreta{
         width: 488px;
-        height: 400px;
+        height: 360px;
     }
     .casados-mirandose{
         width: 500px;
@@ -929,6 +1031,12 @@ nav {
     .pareja-civil{
         width: 520px;
         height: 420px;
+    }
+}
+@media (max-width: 555px){
+    .main-section ul{
+        font-size: 16px;
+        padding: 10px;
     }
 }
 @media (max-width:553px){
@@ -1021,19 +1129,10 @@ nav {
         height: 270px;
     }
 }
-/**
-@media (max-width:401px){
-    .casados-mirandose{
-        width: 280px;
-        height: 500px;
 
-    }
-    .pareja-civil{
-        width: 350px;
-        height: 220px;
-    }
-}
-*/
+
+
+/**
 @media (max-width:320px){
     .mail-section ul{
         display: flex;
@@ -1060,6 +1159,7 @@ nav {
         align-self: center;
     }
 }
+*/
 /**RESPONSIVE EVENTOS*/
 @media (max-width: 1024px){
     .main-section li{
@@ -1077,18 +1177,36 @@ nav {
         height: 750px;
     }
     }
+    @media (max-width: 988px){
+        .main-section li{
+            display: inline;
+            font-size: 20px;
+        }
+    }
     @media (max-width: 978px){
         .familia-sonriendo{
             width: 760px;
             height: 300px;
         }
         }
-    /**
+    
 @media (max-width: 978px){
     .familia-sonriendo{
         width: 840px;
         height: 320px;
     }
+    }
+    @media (max-width:900px){
+        .main-section li{
+            display: inline;
+            font: 19px;
+        }
+    }
+    @media (max-width: 896px){
+        .main-section li{
+            display: inline;
+            font-size: 18px;
+        }
     }
 @media (max-width:869px){
     .familia-sonriendo{
@@ -1098,6 +1216,16 @@ nav {
     .nene-mama{
         width: 500px;
         height: 880px;
+    }
+}
+@media (max-width: 858px){
+    .main-section li{
+        padding: 30px;
+    }
+}
+@media (max-width:840px){
+    .galeria-boda{
+        margin: 0;
     }
 }
 @media (max-width: 812px){
@@ -1128,7 +1256,11 @@ nav {
         height: 600px;
     }
 }
-*/
+    @media (max-width:786px){
+        .main-section li{
+            padding: 25px;
+        }
+    }
 @media (max-width:768px){
     .main-section li{
         display: inline;
@@ -1168,7 +1300,11 @@ nav {
         height: 450px;
     }
 }
-/**
+@media (max-width: 736px){
+    .main-section li{
+        padding: 20px;
+    }
+}
 @media (max-width: 620px){
     .familia-sonriendo{
         width: 500px;
@@ -1176,6 +1312,7 @@ nav {
     }
     
 }
+
 @media (max-width:520px){
     .nene-sonriendo{
         width: 320px;
@@ -1194,7 +1331,7 @@ nav {
         height: 450px;
     }
 }
-*/
+
 @media (max-width: 475px){
     .container-1{
         position: static;
