@@ -1402,7 +1402,61 @@ nav {
         height: 290px;
     }
 }
-
-
+/**RESPONSIVE CONTACTOSSS*/
+@media (max-width:1024px){
+    .main-contacto li{
+        display: inline;
+        padding: 35px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px){
+    .main-contacto li{
+        display: inline;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .navBarContacto{
+    background-color: beige;
+}
+}
+@media (max-width:640px){
+    .main-contacto li{
+        display: inline;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+@media (max-width:594px){
+    .main-contacto li{
+        display: inline;
+        padding: 8px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 570px){
+    .main-contacto li{
+        display: inline;
+        padding: 6px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 540px){
+    .main-contacto li{
+        display: inline;
+        padding: 4px;
+        font-size: 16px;
+    }
+}
+@media (max-width:520px){
+    .container-contacto{
+        position: static;
+    }
+    .main-contacto li{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
 
 
