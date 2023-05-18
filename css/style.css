@@ -673,6 +673,80 @@ h2 {
     margin-bottom: 0px;
 }
 
+/**REALICE CONTACTO CON BOOTSTRAP*/
+.main-contacto li {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2{
+    font-family: 'Castoro Titling', cursive;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+.main-contacto {
+    background-color: #A19882;
+}
+.container-contacto{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.bordeContacto1 {
+    background-color: #E6DDC6;
+}
+.navBarContacto {
+    background-color: #A19882;
+    
+}
+.navBarContacto a {
+    text-decoration: none;
+    color: black;
+}
+.bodyContacto1 {
+    margin-top: 0px;
+}
+.mail-contacto {
+    background-color: #C2B8A3;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 700px;
+}
+
+.mail-1 {
+    background-color: #C2B8A3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+nav {
+    padding: 30px;
+    background-color: #E6DDC6;
+    position: sticky;
+    }
+    .button-1{
+        text-align: start;
+        margin-left: 2px;
+    }
+
 /**footer*/
 
 .footerConsulta {
