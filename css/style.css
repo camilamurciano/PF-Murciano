@@ -1258,7 +1258,7 @@ nav {
 }
     @media (max-width:786px){
         .main-section li{
-            padding: 25px;
+            padding: 28px;
         }
     }
 @media (max-width:768px){
@@ -1302,15 +1302,41 @@ nav {
 }
 @media (max-width: 736px){
     .main-section li{
-        padding: 20px;
+        padding: 26px;
+    }
+}
+@media (max-width: 724px){
+    .main-section li{
+        padding: 24px;
+    }
+}
+@media (max-width: 688px){
+    .main-section li{
+        padding: 22px;
+    }
+}
+@media (max-width: 660px){
+    .main-section li{
+        padding: 18px;
+    }
+}
+@media (max-width: 646px){
+    .main-section li{
+        padding: 16px;
     }
 }
 @media (max-width: 620px){
+
     .familia-sonriendo{
         width: 500px;
         height: 250px;
     }
     
+}
+@media (max-width: 594px){
+    .main-section li{
+        padding: 11px;
+    }
 }
 
 @media (max-width:520px){
