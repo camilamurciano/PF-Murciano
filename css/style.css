@@ -87,6 +87,11 @@ h1 {
     color: black;
     font-size: 100px;
 }
+.headerFormulario h1::selection{
+    background-color: #A19882;
+    
+}
+
 
 /**main*/
 
@@ -151,11 +156,31 @@ nav {
     position: sticky;
 }
 
+.navBar li a:hover{
+    color:grey;
+    text-decoration: underline;
+}
+.navBar li a:active{
+    color:#dd9d4e
+}
 .navBar2 {
     background-color: #A19882;
     
 }
-
+.navBar2 li a:hover{
+    color:beige;
+    text-decoration: underline;
+}
+.navBar2 li a:active{
+    color:#7e5f5f
+}
+.navBarContacto li a:hover{
+    color: beige;
+    text-decoration: underline;
+}
+.navBarContacto li a:active{
+    color: #7e5f5f;
+}
 .main-buscador li {
     display: inline;
     font-size: 23px;
@@ -210,7 +235,10 @@ h2 {
     color: white;
     margin-top: 0px;
 }
-
+.descripcion-index p::selection{
+    background-color: #C2B8A3;
+    color: black;
+}
 
 .descripcion-1 p {
     font-family: 'Roboto', sans-serif;
@@ -239,6 +267,27 @@ h2 {
     font-size: 20px;
     color: black;
 }
+.descripcion-book p::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+.descripcion-boda p::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+.descripcion-eventos p::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+.descripcion-contenido p::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+.mail-contacto p::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+
 .descripcion-boda{
     background-color: #C2B8A3;
     background-size: cover;
@@ -839,7 +888,12 @@ h2{
     padding-bottom: 20px;
     font-weight: 700px;
 }
-
+input:focus{
+    box-shadow: 5px 5px 5px #8e8ea0;
+}
+.col input:focus{
+    box-shadow: 5px 5px 5px 5px #adade0;
+}
 .mail-1 {
     background-color: #C2B8A3;
     margin-top: 0px;
