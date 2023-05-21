@@ -313,28 +313,31 @@ h2 {
     margin: auto;
 
 } 
+
 .galeria-book{
     background-color: #C2B8A3;
     background-size: contain;
-    height: 100vh;
-
+    margin: auto;
+    width: 90%;
 }
 
+
+
 /**GRIDS*/
-.img-book{
-    background-color:#C2B8A3;
-    background-size: contain;
-    display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4,1fr);
-    grid-area: 
-    
-    "img1 img1"
-    "img2 img2"
-    "img3 img3"
-    "img4 img4"
-    ;
+
+    .img-book {
+        background-color: #C2B8A3;
+        background-size: contain;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas:
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4"
+            ;
 }
 .hombre-panza{
     grid-area: img1;
