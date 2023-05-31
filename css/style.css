@@ -1288,6 +1288,173 @@ nav {
     margin-bottom: 15px;
     }
 }
+
+/**BOOK*/
+@media(max-width:1024px){
+.hombre-panza{
+    width: 320px;
+    height: 750px;
+}
+.pareja-mirandose{
+
+    width: 450px;
+    height: 320px;
+}
+}
+@media(max-width:976px){
+    .hombre-panza{
+        width: 320px;
+        height: 720px;
+    }
+    .pareja-mirandose{
+        width: 400px;
+        height: 300px;
+    }
+    .mujer-panza{
+        margin-top: 15px;
+        width: 420px;
+        height: 700px;
+        margin-bottom: 15px;
+    }
+    .pareja-mano{
+        width: 380px;
+        height: 380px;
+    }
+}
+@media(max-width:870px){
+    .hombre-panza{
+        width: 320px;
+        height: 680px;
+    }
+    .pareja-mirandose{
+        width: 360px;
+        height: 300px;
+    }
+    .mujer-panza{
+        margin-top: 15px;
+        width: 380px;
+        height: 620px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:802px){
+    .main-section ul{
+        background-color: beige;
+
+    }
+    .main-section li{
+        font-size: 18px;
+        padding: 12px;
+    }
+    .pareja-mirandose{
+        width: 330px;
+        height: 260px;
+    }
+    .pareja-mano{
+        width: 340px;
+        height: 340px;
+    }
+}
+@media(max-width:768px){
+    .img-book{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .hombre-panza{
+        display: flex;
+        align-self: flex-start;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 600px;
+    }
+    .pareja-mirandose{
+        display: flex;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+    .mujer-panza{
+        display: flex;
+        align-self: flex-start;
+        margin-bottom: 15px;
+        width: 350px;
+        height: 580px;
+    }
+    .pareja-mano{
+        display: flex;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:520px){
+    .img-book{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hombre-panza{
+        display: flex;
+        align-self: center;
+        margin-bottom: 15px;
+        width: 280px;
+        height: 580px;
+    }
+    .pareja-mirandose{
+        display: flex;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+    .mujer-panza{
+        display: flex;
+        align-self: center;
+        margin-bottom: 15px;
+        width: 340px;
+        height: 550px;
+    }
+    .pareja-mano{
+        display: flex;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:425px){
+    .hombre-panza{
+        width: 250px;
+        height: 520px;
+    }
+    .mujer-panza{
+        width: 310px;
+        height: 520px;
+    }
+}
+@media (max-width:375px){
+    .pareja-mirandose{
+        width: 300px;
+        height: 230px;
+    }
+    .mujer-panza{
+        width: 280px;
+        height: 480px;
+    }
+    .pareja-mano{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:320px){
+    .pareja-mirandose{
+        width: 270px;
+        height: 190px;
+    }
+    .mujer-panza{
+        width: 250px;
+        height: 420px;
+    }
+    .pareja-mano{
+        width: 270px;
+        height: 270px;
+    }
+}
 /**BODA/CIVIL*/
 @media (max-width: 1024px){
     .main-section li{
