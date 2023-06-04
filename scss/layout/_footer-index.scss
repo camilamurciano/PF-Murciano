@@ -1,0 +1,40 @@
+.footerConsulta {
+    background-color: #A19882;
+    font-family: 'Castoro Titling', cursive;
+    text-align: left;
+    font-size: 21px;
+    width: 100%;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+}
+.footer-section {
+    background-color: #E6DDC6;
+
+    .footer-iconos {
+        display: flex;
+        justify-content: end;
+        
+    }
+    
+    .footerBsas {
+
+    p{
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            font-size: 19px;
+            letter-spacing: 1;
+        
+            color: black;
+            margin-top: 0px;
+    }
+    
+    }
+    .whatsapp-1{
+        position: fixed;
+        bottom: 1px;
+        right: 67px;
+    
+    }
+}

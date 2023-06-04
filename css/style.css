@@ -1,80 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/**siempre declarar esto*/
-
-/**html{
-    font-size: 62.5%;
-}
-/**siempre hay que declarar esto */
-
-/**header{
-    font-size: 1.5rem;
-}
-
-header{
-    background-color: azure;
-    font-size: 2em;
-}
-
-/** de esta manera es como yo puedo escribir un comentario/*
-/** clases:
-        camelCase= escribeUnaPalabra
-        kebabe= escribiendo-una-palabra
-        snake_case= escribiendo_una_palabra */
-
-/**font-family: 'Castoro Titling', cursive;
-        font-family: 'Roboto', sans-serif;
-*/
-/**display flex: se comporta en base a lo que diga flexbox
-flex direction: row; estan en linea o todo sobre el eje horizontal
-flex direction: columne; uno abajo del otro o en el eje y
-/**justify-content controla la alineación horizontal de un conjunto de elementos, 
-mientras que align-items controla su alineación vertical/**
-/**header*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 .headerFoto {
-    background-image: url(../assets/img/camara.nikon.jpg);
-    background-position: center;
-    width: 100%;
-    height: 500px;
-    margin: 0;
-    border-radius: 25px;
-    box-shadow: 0px 10px 10px black;
-    
-}
-
-.headerFormulario {
+  background-image: url(../assets/img/camara.nikon.jpg);
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px black; }
+  .headerFoto .headerFormulario {
     width: 100%;
     height: 125px;
     display: flex;
     justify-content: end;
-}
-.headerFormulario h1{
-
-    text-shadow: 3px 3px 5px white;
-    
-}
-
-.descripcion-1 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    letter-spacing: 1px;
-    width: 100%;
-    height: 750px;
-}
-
-.descripcion-1 p {
-    text-align: right;
-    font-size: 16px;
-    justify-content: center;
-}
-
-h1 {
+    text-shadow: 3px 3px 5px white; }
+  .headerFoto h1 {
     font-family: 'Castoro Titling', cursive;
     letter-spacing: 1px;
     text-align: right;
@@ -85,131 +28,47 @@ h1 {
     bottom: 50px;
     margin-top: 0px;
     color: black;
-    font-size: 100px;
-}
-.headerFormulario h1::selection{
-    background-color: #A19882;
-    
-}
+    font-size: 100px; }
+    .headerFoto h1::selection {
+      background-color: #A19882; }
 
-
-/**main*/
-
-ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.main-buscador ul{
-    position: sticky;
-}
-nav {
+.container-1 {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-1 .main-buscador {
     padding: 40px;
     background-color: #E6DDC6;
-    position: sticky;
-}
+    position: sticky; }
+    .container-1 .main-buscador .navBar li {
+      display: inline;
+      font-size: 23px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding-left: 110px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: black; }
+    .container-1 .main-buscador .navBar a {
+      text-decoration: none;
+      color: black; }
+      .container-1 .main-buscador .navBar a:hover {
+        color: grey;
+        text-decoration: underline; }
+      .container-1 .main-buscador .navBar a:active {
+        color: #dd9d4e; }
+      .container-1 .main-buscador .navBar a::selection {
+        background-color: #7e5f5f;
+        color: white; }
 
-.main-section {
-    background-color: #A19882;
-}
-
-.main-section li {
-    display: inline;
-    font-size: 23px;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding-left: 100px;
-    padding-bottom: 1px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-}
-.container-1{
-    position: sticky;
-    top: 0;
-    z-index: 4;
-}
-
-.bordeBoda {
-    background-color: #E6DDC6;
-}
-
-.bordeBook {
-    background-color: #E6DDC6;
-}
-
-.bordeEventos {
-    background-color: #E6DDC6;
-}
-
-.bordeContenido {
-    background-color: #E6DDC6;
-}
-
-.bordeContacto {
-    background-color: #E6DDC6;
-}
-
-.navBar ul {
-    background-color: #E6DDC6;
-    color: black;
-    position: sticky;
-}
-
-.navBar li a:hover{
-    color:grey;
-    text-decoration: underline;
-}
-.navBar li a:active{
-    color:#dd9d4e
-}
-.navBar2 {
-    background-color: #A19882;
-    
-}
-.navBar2 li a:hover{
-    color:beige;
-    text-decoration: underline;
-}
-.navBar2 li a:active{
-    color:#7e5f5f
-}
-.navBarContacto li a:hover{
-    color: beige;
-    text-decoration: underline;
-}
-.navBarContacto li a:active{
-    color: #7e5f5f;
-}
-.main-buscador li {
-    display: inline;
-    font-size: 23px;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding-left: 120px;
-    padding-bottom: 1px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: black;
-}
-
-.navBar a {
-    text-decoration: none;
-    color: black;
-    
-}
-
-.navBar2 a {
-    text-decoration: none;
-    color: black;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-}
-.descripcion-index{
+.section-index {
+  background-image: url(../assets/img/photo-1618339665980-9fe338a21dcd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .section-index .descripcion-index {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -217,167 +76,520 @@ h2 {
     padding-top: 50px;
     padding-bottom: 150px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px; }
+    .section-index .descripcion-index p {
+      align-self: center;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      letter-spacing: 1px;
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-right: 50px;
+      font-size: 35px;
+      color: white;
+      margin-top: 0px; }
+      .section-index .descripcion-index p::selection {
+        background-color: #C2B8A3;
+        color: black; }
+    .section-index .descripcion-index .fotoFlor {
+      width: 350px;
+      height: 300px;
+      padding-top: 50px;
+      padding-left: 100px;
+      padding-right: 0px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      box-shadow: 5px 5px 5px 5px white; }
 
-
-}
-
-.descripcion-index p {
+.galeria-1 {
+  width: 90%;
+  margin: auto; }
+  .galeria-1 .img-index {
     display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-right: 50px;
-    font-size: 35px;
-    color: white;
-    margin-top: 0px;
-}
-.descripcion-index p::selection{
-    background-color: #C2B8A3;
-    color: black;
-}
+    flex-direction: column; }
+  .galeria-1 .corazon-embarazada {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 15px;
+    width: 262px;
+    height: 402px; }
+  .galeria-1 .mujeres-beso {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 15px;
+    width: 371px;
+    height: 486px; }
+  .galeria-1 .mujer-mirando {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 25px;
+    width: 169px;
+    height: 196px; }
+  .galeria-1 .hombre-nene {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 20px;
+    width: 480px;
+    height: 128px; }
+  .galeria-1 .pareja-byn {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 396px;
+    height: 182px; }
+  .galeria-1 .familia-feliz {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 40px;
+    width: 258px;
+    height: 384px; }
+  .galeria-1 .nene-sonriendo1 {
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 212px;
+    height: 544px; }
 
-.descripcion-1 p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black;
-}
+.footerConsulta {
+  background-color: #A19882;
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  font-size: 21px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 0px 5px 0px; }
 
-.descripcion-1 {
-    background-color: #C2B8A3;
-    background-size: cover;
-    padding-top: 0px;
-    padding-bottom: 0px;
+.footer-section {
+  background-color: #E6DDC6; }
+  .footer-section .footer-iconos {
+    display: flex;
+    justify-content: end; }
+  .footer-section .footerBsas p {
+    font-family: 'Roboto', sans-serif;
     text-align: left;
-    padding-right: 00px;
-}
-.descripcion-boda p{
+    font-size: 19px;
+    letter-spacing: 1;
+    color: black;
+    margin-top: 0px; }
+  .footer-section .whatsapp-1 {
+    position: fixed;
+    bottom: 1px;
+    right: 67px; }
+
+body {
+  margin-top: 0px; }
+
+h2 {
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #E6DDC6; }
+
+.container-1 {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-1 .main-section {
+    background-color: #A19882;
+    padding: 35px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 23px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding-left: 110px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .container-1 .main-section .navBar2 {
+      background-color: #A19882; }
+    .container-1 .main-section .navBar2 a {
+      text-decoration: none;
+      color: black; }
+      .container-1 .main-section .navBar2 a:hover {
+        color: beige;
+        text-decoration: underline; }
+      .container-1 .main-section .navBar2 a:active {
+        color: #7e5f5f; }
+      .container-1 .main-section .navBar2 a::selection {
+        background-color: #7e5f5f;
+        color: white; }
+
+.descripcion-boda {
+  background-color: #C2B8A3;
+  background-size: cover; }
+  .descripcion-boda p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 100px;
     margin-top: 0px;
     font-size: 20px;
-    color: black;
-}
-.descripcion-book p::selection{
-    background-color: #7e5f5f;
-    color: white;
-}
-.descripcion-boda p::selection{
-    background-color: #7e5f5f;
-    color: white;
-}
-.descripcion-eventos p::selection{
-    background-color: #7e5f5f;
-    color: white;
-}
-.descripcion-contenido p::selection{
-    background-color: #7e5f5f;
-    color: white;
-}
-.mail-contacto p::selection{
-    background-color: #7e5f5f;
-    color: white;
-}
+    color: black; }
+    .descripcion-boda p::selection {
+      background-color: #7e5f5f;
+      color: white; }
 
-.descripcion-boda{
-    background-color: #C2B8A3;
-    background-size: cover;
-}
-.descripcion-contenido{
-    background-color: #C2B8A3;
-    background-size: cover;
-}
-.descripcion-contenido p{
+.galeria-boda {
+  width: 90%;
+  margin: auto; }
+  .galeria-boda .img-boda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex; }
+    .galeria-boda .img-boda .familia-libreta {
+      width: 813px;
+      height: 437px; }
+    .galeria-boda .img-boda .casados-mirandose {
+      display: flex;
+      align-self: flex-start;
+      padding-top: 30px;
+      width: 553px;
+      height: 834px; }
+    .galeria-boda .img-boda .mujer-mirandomarido {
+      display: flex;
+      align-self: flex-end;
+      width: 444px;
+      height: 444px; }
+    .galeria-boda .img-boda .pareja-civil {
+      display: flex;
+      align-self: flex-start;
+      margin-bottom: 50px;
+      width: 800px;
+      height: 385px; }
+
+body {
+  margin-top: 0px; }
+
+h2 {
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #E6DDC6; }
+
+.container-1 {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-1 .main-section {
+    background-color: #A19882;
+    padding: 35px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 23px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding-left: 110px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .container-1 .main-section .navBar2 {
+      background-color: #A19882; }
+    .container-1 .main-section .navBar2 a {
+      text-decoration: none;
+      color: black; }
+      .container-1 .main-section .navBar2 a:hover {
+        color: beige;
+        text-decoration: underline; }
+      .container-1 .main-section .navBar2 a:active {
+        color: #7e5f5f; }
+      .container-1 .main-section .navBar2 a::selection {
+        background-color: #7e5f5f;
+        color: white; }
+
+.descripcion-eventos {
+  background-color: #C2B8A3;
+  background-size: cover; }
+  .descripcion-eventos p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 100px;
     margin-top: 0px;
     font-size: 20px;
-    color: black;
-}
-.descripcion-book{
-    background-color: #C2B8A3;
-    background-size: cover;
-}
+    color: black; }
+    .descripcion-eventos p::selection {
+      background-color: #7e5f5f;
+      color: white; }
 
-.secion-book{
+.galeria-eventos {
+  width: 90%;
+  margin: auto; }
+  .galeria-eventos .img-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
     background-color: #C2B8A3;
-    background-size: cover;
-}
-.descripcion-book p{
+    display: flex; }
+    .galeria-eventos .img-eventos .nene-sonriendo {
+      display: flex;
+      align-self: flex-start;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      width: 363px;
+      height: 363px; }
+    .galeria-eventos .img-eventos .familia-sonriendo {
+      display: flex;
+      align-self: flex-end;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 912px;
+      height: 357px; }
+    .galeria-eventos .img-eventos .nene-mama {
+      display: flex;
+      align-self: flex-start;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 590px;
+      height: 976px; }
+    .galeria-eventos .img-eventos .nene-boca {
+      display: flex;
+      align-self: flex-end;
+      margin-bottom: 50px;
+      width: 584px;
+      height: 776px; }
+
+body {
+  margin-top: 0px; }
+
+h2 {
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #E6DDC6; }
+
+body {
+  margin-top: 0px; }
+
+.container-1 {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-1 .main-section {
+    background-color: #A19882;
+    padding: 35px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 23px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding-left: 110px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .container-1 .main-section .navBar2 {
+      background-color: #A19882; }
+    .container-1 .main-section .navBar2 a {
+      text-decoration: none;
+      color: black; }
+      .container-1 .main-section .navBar2 a:hover {
+        color: beige;
+        text-decoration: underline; }
+      .container-1 .main-section .navBar2 a:active {
+        color: #7e5f5f; }
+      .container-1 .main-section .navBar2 a::selection {
+        background-color: #7e5f5f;
+        color: white; }
+
+.descripcion-contenido {
+  background-color: #C2B8A3;
+  background-size: cover; }
+  .descripcion-contenido p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 100px;
     margin-top: 0px;
     font-size: 20px;
-    color: black;
-    background-color: #C2B8A3;
-}
-.descripcion-eventos{
-    background-color: #C2B8A3;
-    background-size: cover;
-}
-.descripcion-eventos p{
+    color: black; }
+    .descripcion-contenido p::selection {
+      background-color: #7e5f5f;
+      color: white; }
+
+.galeria-contenido {
+  width: 90%;
+  margin: auto; }
+  .galeria-contenido .img-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex; }
+    .galeria-contenido .img-contenido .marca-1 {
+      display: flex;
+      align-self: flex-start;
+      width: 460px;
+      height: 460px; }
+    .galeria-contenido .img-contenido .marca-2 {
+      align-self: flex-end;
+      width: 460px;
+      height: 460px; }
+    .galeria-contenido .img-contenido .marca-3 {
+      align-self: flex-start;
+      width: 460px;
+      height: 460px; }
+    .galeria-contenido .img-contenido .marca-4 {
+      align-self: flex-end;
+      width: 460px;
+      height: 460px; }
+    .galeria-contenido .img-contenido .marca-5 {
+      align-items: flex-start;
+      margin-bottom: 50px;
+      width: 460px;
+      height: 460px; }
+
+body {
+  margin-top: 0px; }
+
+h2 {
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: bold; }
+
+.container-contacto {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-contacto .main-contacto {
+    background-color: #A19882; }
+    .container-contacto .main-contacto .navBarContacto {
+      margin-bottom: 0px;
+      padding: 30px; }
+    .container-contacto .main-contacto .navBarContacto li {
+      display: inline;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding: 60px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: 'Roboto', sans-serif; }
+    .container-contacto .main-contacto .navBarContacto a {
+      text-decoration: none;
+      color: black; }
+      .container-contacto .main-contacto .navBarContacto a:hover {
+        color: beige;
+        text-decoration: underline; }
+      .container-contacto .main-contacto .navBarContacto a:active {
+        color: #7e5f5f; }
+      .container-contacto .main-contacto .navBarContacto a::selection {
+        background-color: #7e5f5f;
+        color: white; }
+
+.mail-contacto {
+  background-color: #C2B8A3; }
+  .mail-contacto p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black;
-}
-
-.section-index {
-    background-image: url(../assets/img/photo-1618339665980-9fe338a21dcd.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.fotoFlor {
-    width: 350px;
-    height: 300px;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 0px;
+    margin: 0px;
+    font-size: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    box-shadow: 5px 5px 5px 5px white;
-    
-}
-.galeria-1{
-    width: 90%;
-    margin: auto;
+    font-weight: 700px; }
+    .mail-contacto p::selection {
+      background-color: #7e5f5f;
+      color: white; }
 
-} 
+input:focus {
+  box-shadow: 5px 5px 5px #8e8ea0; }
 
-.galeria-book{
+.col input:focus {
+  box-shadow: 5px 5px 5px 5px #adade0; }
+
+.button-1 {
+  text-align: start;
+  margin-left: 2px;
+  margin-bottom: 10px; }
+
+body {
+  margin-top: 0px; }
+
+h2 {
+  font-family: 'Castoro Titling', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #E6DDC6; }
+
+.container-1 {
+  position: sticky;
+  top: 0;
+  z-index: 4; }
+  .container-1 .main-section {
+    background-color: #A19882;
+    padding: 35px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 23px;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      padding-left: 110px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .container-1 .main-section .navBar2 {
+      background-color: #A19882; }
+    .container-1 .main-section .navBar2 a {
+      text-decoration: none;
+      color: black; }
+      .container-1 .main-section .navBar2 a:hover {
+        color: beige;
+        text-decoration: underline; }
+      .container-1 .main-section .navBar2 a:active {
+        color: #7e5f5f; }
+      .container-1 .main-section .navBar2 a::selection {
+        background-color: #7e5f5f;
+        color: white; }
+
+.descripcion-book {
+  background-color: #C2B8A3;
+  background-size: cover; }
+  .descripcion-book p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black; }
+    .descripcion-book p::selection {
+      background-color: #7e5f5f;
+      color: white; }
+
+.galeria-book {
+  background-color: #C2B8A3;
+  background-size: contain;
+  margin: auto;
+  width: 90%; }
+  .galeria-book .img-book {
     background-color: #C2B8A3;
     background-size: contain;
-    margin: auto;
-    width: 90%;
-}
-
-
-
-/**GRIDS*/
-
-    .img-book {
-        background-color: #C2B8A3;
-        background-size: contain;
-        display: grid;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "img1 img1" "img2 img2" "img3 img3" "img4 img";
+    display: grid;
+    /**
         height: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4,auto);
@@ -387,1758 +599,38 @@ h2 {
             "img3 img3"
             "img4 img4"
             ;
-}
-.hombre-panza{
-    grid-area: img1;
-    object-fit: cover;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 20px;
-}
-.pareja-mirandose{
-
-    grid-area: img2;
-    object-fit: cover;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin-left: 20px;
-}
-.mujer-panza{
-
-    grid-area: img3;
-    object-fit: cover;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin: 0;
-
-}
-.pareja-mano{
-
-    grid-area: img4;
-    object-fit:cover;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    justify-self: center;
-}
-
-/**
-.img1{
-    
-    grid-area: img1;
-    height: 100%;
-    align-self: flex-start;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 20px;
-    margin: 0;
-}
-.img2{
-    grid-area: img2;
-    height: 0px;
-    margin: 0;
-    object-fit: cover;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    display: flex;
-    
-    
-}
-.img3{
-    grid-area: img3;
-    height: 100%;
-    object-fit: cover;
-    grid-column-start: 0;
-    grid-column-start: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    display: flex;
-    justify-content: flex-start;
-    
-}
-.img4{
-    grid-area: img4;
-    height: auto;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    align-self: flex-start;
-    margin-bottom: 0;
-    padding-right: 20px;
-}
-*/
-.galeria-boda{
-    width: 90%;
-    margin: auto;
-    
-}
-
-.galeria-contenido{
-    width: 90%;
-    margin: auto;
-    
-}
-.galeria-eventos{
-    width: 90%;
-    margin: auto;
-}
-
-.bordeTexto p {
-    background-position: center;
-    background-size: contain;
-    text-align: center;
-    padding-bottom: 150px;
-    padding-top: 50px;
-    margin-top: 0px;
-}
-
-.bordeTexto {
-    margin-top: 0px;
-}
-
-.bodyBook {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.bodyBoda {
-    margin-top: 0px;
-}
-
-.bodyEventos {
-    margin-top: 0px;
-}
-
-.bodyContenido {
-    margin-top: 0px;
-}
-
-.bodyContacto {
-    margin-top: 0px;
-}
-
-h2 {
-    font-family: 'Castoro Titling', cursive;
-    text-align: left;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.img-index {
-    display: flex;
-    flex-direction: column;
-}
-
-/**.img-book {
-    background-color: #C2B8A3;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-*/
-
-.img-boda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
-.img-eventos {
-    background-color: #C2B8A3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-}
-
-.img-contenido {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-}
-.img-index {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-    }
-.corazon-embarazada {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 15px;
-    width: 262px;
-    height: 402px;
-}
-
-.mujeres-beso {
-    display: flex;
-    align-self: flex-end;
-    margin-top: 15px;
-    width: 371px;
-    height: 486px;
-}
-
-.mujer-mirando {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 25px;
-    width: 169px;
-    height: 196px;
-}
-
-.hombre-nene {
-    display: flex;
-    align-self: flex-end;
-    margin-top: 20px;
-    width: 480px;
-    height: 128px;
-}
-
-.pareja-byn {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 396px;
-    height: 182px;
-}
-
-.familia-feliz {
-    display: flex;
-    align-self: flex-end;
-    margin-top: 40px;
-    width: 258px;
-    height: 384px;
-}
-
-.nene-sonriendo1 {
-    display: flex;
-    align-self: center;
-    margin-top: 20px;
-    padding-bottom: 50px;
-    width: 212px;
-    height: 544px;
-}
-/**
-.galeria-book{
-    object-fit: cover;
-    display: grid;
-    width: 90%;
-    height: 90%;
-    grid-template-columns: repeat(8,1fr) ;
-    grid-template-rows: repeat(4,1fr);
-    grid-area: 
-    "img1" 
-    "img2"
-    "img3"
-    "img4"
-    
-    ;
-    justify-items: center;
-}
-
-
-.img-book{
-    grid-area: img1;
-    object-fit: cover;
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-.hombre-panza {
-    margin-top: 50px;
-    width: 339px;
-    height: 801px;
-}
-
-.img-book2{
-    grid-area: img2;
-    object-fit: cover;
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-.pareja-mirandose {
-    width: 669px;
-    height: 389px;
-}
-.img-book3{
-    grid-area: img3;
-    object-fit: cover;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end:3;
-}
-.img-book4{
-    grid-area: img4;
-    object-fit: cover;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    padding-bottom: 10px;
-
-}
-*/
-.hombre-panza {
-    margin-top: 50px;
-    width: 339px;
-    height: 801px;
-}
-.pareja-mirandose {
-    width: 669px;
-    height: 389px;
-    }
-.mujer-panza {
-    margin: 0;
-    width: 455px;
-    height: 758px;
-}
-
-.pareja-mano {
-    width: 405px;
-    height: 405px;
-}
-
-.familia-libreta {
-    width: 813px;
-    height: 437px;
-}
-
-.casados-mirandose {
-    display: flex;
-    align-self: flex-start;
-    padding-top: 30px;
-    width: 553px;
-    height: 834px;
-}
-
-.mujer-mirandomarido {
-    display: flex;
-    align-self: flex-end;
-    width: 444px;
-    height: 444px;
-}
-
-.pareja-civil {
-    display: flex;
-    align-self: flex-start;
-    margin-bottom: 50px;
-    width: 800px;
-    height: 385px;
-}
-
-.nene-sonriendo {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    width: 363px;
-    height: 363px;
-}
-
-.familia-sonriendo {
-    display: flex;
-    align-self: flex-end;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 912px;
-    height: 357px;
-}
-
-.nene-mama {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 590px;
-    height: 976px;
-}
-
-.nene-boca {
-    display: flex;
-    align-self: flex-end;
-    margin-bottom: 50px;
-    width: 584px;
-    height: 776px;
-}
-
-.marca-1 {
-    width: 460px;
-    height: 460px;
-}
-
-.marca-2 {
-    align-self: flex-end;
-    width: 460px;
-    height: 460px;
-}
-
-.marca-3 {
-    align-self: flex-start;
-    width: 460px;
-    height: 460px;
-}
-
-.marca-4 {
-    align-self: flex-end;
-    width: 460px;
-    height: 460px;
-}
-
-.marca-5 {
-    align-items: flex-start;
-    margin-bottom: 50px;
-    width: 460px;
-    height: 460px;
-}
-
-.mail-section {
-    background-color: #C2B8A3;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-.mail-1 {
-    background-color: #C2B8A3;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-/**REALICE CONTACTO CON BOOTSTRAP*/
-.main-contacto li {
-    display: inline;
-    font-size: 20px;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding: 60px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-h2{
-    font-family: 'Castoro Titling', cursive;
-    text-align: left;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 25px;
-    font-weight: bold;
-    }
-
-.main-contacto {
-    background-color: #A19882;
-}
-.container-contacto{
-    position: sticky;
-    top: 0;
-    z-index: 4;
-}
-
-.bordeContacto1 {
-    background-color: #E6DDC6;
-}
-.navBarContacto {
-    background-color: #A19882;
-    
-}
-.navBarContacto a {
-    text-decoration: none;
-    color: black;
-}
-.bodyContacto1 {
-    margin-top: 0px;
-}
-.mail-contacto {
-    background-color: #C2B8A3;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 50px;
-    margin-top: 0px;
-    font-size: 20px;
-    padding-bottom: 20px;
-    font-weight: 700px;
-}
-input:focus{
-    box-shadow: 5px 5px 5px #8e8ea0;
-}
-.col input:focus{
-    box-shadow: 5px 5px 5px 5px #adade0;
-}
-.mail-1 {
-    background-color: #C2B8A3;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-nav {
-    padding: 30px;
-    background-color: #E6DDC6;
-    position: sticky;
-    }
-    .button-1{
-        text-align: start;
-        margin-left: 2px;
-    }
-
-/**footer*/
-
-.footerConsulta {
-    background-color: #A19882;
-    font-family: 'Castoro Titling', cursive;
-    text-align: left;
-    font-size: 21px;
-    width: 100%;
-    
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 5px 0px 5px 0px;
-}
-
-.footer-section {
-    background-color: #E6DDC6;
-}
-
-.footer-1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    font-size: 19px;
-    letter-spacing: 1;
-}
-
-/**.footer-1 div{
-            font-size: 15px;
-            margin-top: 0px;
-            align-items: left;
-        }
-        */
-.footer-iconos {
-    display: flex;
-    justify-content: end;
-    
-
-}
-
-.footerBsas p {
-    color: black;
-    margin-top: 0px;
-}
-.whatsapp-1{
-    position: fixed;
-    bottom: 1px;
-    right: 68px;
-
-}
-/**MEDIA/RESPONSIVE*/
-
-
-/**INDEX*/
-@media(max-width:1277px){
-    h1{
-        font-size: 75px;
-    }
-    .navBar li{
-        padding: 50px;
-    }
-}
-@media (max-width:1135px){
-    .navBar li{
-        padding: 40px;
-    }
-}
-@media (max-width:1024px){
-    h1{
-        font-size: 60px;
-    }
-    .navBar li{
-        padding: 30px;
-        font-size: 21px;
-    }
-    .descripcion-index p{
-        font-size: 25px;
-    }
-}
-@media(max-width:866px){
-    h1{
-        font-size: 50px;
-    }
-    .navBar li{
-        padding: 25px;
-        font-size: 20px;
-    }
-    .descripcion-index p{
-        font-size: 22px;
-        text-align:center;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        gap: 10px;
-        padding-top: 50px;
-        padding-bottom: 150px;
-        padding-left: 70px;
-        padding-right: 70px;
-    
-}
-}
-@media (max-width:800px){
-    .navBar li{
-        padding: 20px;
-        font-size: 18px;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        width: auto;
-        gap: 8px;
-        padding-top: 50px;
-        padding-bottom: 150px;
-        padding-left: 60px;
-        padding-right: 60px;
-}
-}
-@media (max-width:768px){
-    .headerFoto{
-        height: 300px;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        gap: 8px;
-        padding-top: 50px;
-        padding-bottom: 150px;
-        padding-left: 50px;
-        padding-right: 20px;
-}
-}
-@media (max-width:728px){
-    .descripcion-index p{
-        font-size: 20px;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        gap: 8px;
-        padding-top: 50px;
-        padding-bottom: 150px;
-        padding-left: 35px;
-        padding-right: 20px;
-    }
-    .fotoFlor{
-        width: 300px;
-        height: 250px;
-    }
-}
-@media (max-width:684px){
-    h1{
-        font-size: 35px;
-    }
-    .container-1{
-        position: static;
-    }
-    .main-buscador ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        gap: 5px;
-        padding-top: 50px;
-        padding-bottom: 150px;
-        padding-left: 35px;
-        padding-right: 20px;
-    }
-    .descripcion-index p{
-        font-size:18px;
-    }
-    .fotoFlor{
-        width: 270px;
-        height: 220px;
-    }
-    .footerConsulta{
-        font-size: 20px;
-    }
-    .footer-1{
-        font-size: 18px;
-    }
-    .corazon-embarazada{
-        width: 230px;
-        height: 380px;
-    }
-    .mujeres-beso{
-        width: 340px;
-        height: 450px;
-    }
-    .mujer-mirando{
-        width: 150px;
-        height: 180px;
-    }
-    .hombre-nene{
-        width: 440px;
-        height: 100px;
-    }
-    .pareja-byn{
-        width: 360px;
-        height: 150px;
-    }
-    .familia-feliz{
-        width: 230px;
-        height: 360px;
-    }
-    .nene-sonriendo1{
-        width: 190px;
-        height: 525px;
-    }
-}
-@media(max-width:590px){
-    h1{
-        font-size: 30px;
-    }
-    .descripcion-index{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
-        padding: 50px;
-    }
-    .fotoFlor{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-    }
-    p{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-    }
-    .corazon-embarazada{
-        width: 210px;
-        height: 360px;
-    }
-    .mujeres-beso{
-        width: 320px;
-        height: 430px;
-    }
-    .mujer-mirando{
-        width: 150px;
-        height: 180px;
-    }
-    .hombre-nene{
-        width: 420px;
-        height: 90px;
-        display: flex;
-        align-self: center;
-    }
-    .pareja-byn{
-        width: 340px;
-        height: 135px;
-    }
-    .familia-feliz{
-        width: 215px;
-        height: 345px;
-    }
-    .nene-sonriendo1{
-        width: 180px;
-        height: 510px;
-    }
-    .footerConsulta{
-        font-size: 19px;
-    }
-}
-@media(max-width:425px){
-    h1{
-        font-size: 25px;
-    }
-    .corazon-embarazada{
-        display: flex;
-        align-self: center;
-        width: 200px;
-        height: 340px;
-        margin-bottom: 15px;
-    }
-    .mujeres-beso{
-        width: 290px;
-        height: 390px;
-        margin-bottom: 15px;
-    }
-    .mujer-mirando{
-        width: 150px;
-        height: 180px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .hombre-nene{
-        width: 370px;
-        height: 80px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .pareja-byn{
-        width: 320px;
-        height: 115px;
-        margin-bottom: 15px;
-    }
-    .familia-feliz{
-        width: 200px;
-        height: 310px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .nene-sonriendo1{
-        width: 180px;
-        height: 480px;
-    }
-}
-@media(max-width:375px){
-    h1{
-        font-size: 22px;
-    }
-    .corazon-embarazada{
-        display: flex;
-        align-self: center;
-        width: 180px;
-        height: 300px;
-        margin-bottom: 15px;
-    }
-    .mujeres-beso{
-        width: 260px;
-        height: 360px;
-        margin-bottom: 15px;
-        display: flex;
-        align-self: center;
-    }
-    .mujer-mirando{
-        width: 150px;
-        height: 180px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .hombre-nene{
-        width: 320px;
-        height: 70px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .pareja-byn{
-        width: 290px;
-        height: 115px;
-        margin-bottom: 15px;
-        display: flex;
-        align-self: center;
-    }
-    .familia-feliz{
-        width: 200px;
-        height: 310px;
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .nene-sonriendo1{
-        width: 180px;
-        height: 450px;
-    }
-}
-@media(max-width:320px){
-    .hombre-nene{
-    width: 280px;
-    height: 70px;
-    display: flex;
-    align-self: center;
-    margin-bottom: 15px;
-    }
-}
-
-/**BOOK*/
-@media(max-width:1024px){
-.hombre-panza{
-    width: 320px;
-    height: 750px;
-}
-.pareja-mirandose{
-
-    width: 450px;
-    height: 320px;
-}
-}
-@media(max-width:976px){
-    .hombre-panza{
-        width: 320px;
-        height: 720px;
-    }
-    .pareja-mirandose{
-        width: 400px;
-        height: 300px;
-    }
-    .mujer-panza{
-        margin-top: 15px;
-        width: 420px;
-        height: 700px;
-        margin-bottom: 15px;
-    }
-    .pareja-mano{
-        width: 380px;
-        height: 380px;
-    }
-}
-@media(max-width:870px){
-    .hombre-panza{
-        width: 320px;
-        height: 680px;
-    }
-    .pareja-mirandose{
-        width: 360px;
-        height: 300px;
-    }
-    .mujer-panza{
-        margin-top: 15px;
-        width: 380px;
-        height: 620px;
-        margin-bottom: 15px;
-    }
-}
-@media (max-width:802px){
-    .main-section ul{
-        background-color: beige;
-
-    }
-    .main-section li{
-        font-size: 18px;
-        padding: 12px;
-    }
-    .pareja-mirandose{
-        width: 330px;
-        height: 260px;
-    }
-    .pareja-mano{
-        width: 340px;
-        height: 340px;
-    }
-}
-@media(max-width:768px){
-    .img-book{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-    }
-    .hombre-panza{
-        display: flex;
-        align-self: flex-start;
-        margin-bottom: 15px;
-        width: 300px;
-        height: 600px;
-    }
-    .pareja-mirandose{
-        display: flex;
-        align-self: flex-end;
-        margin-bottom: 15px;
-    }
-    .mujer-panza{
-        display: flex;
-        align-self: flex-start;
-        margin-bottom: 15px;
-        width: 350px;
-        height: 580px;
-    }
-    .pareja-mano{
-        display: flex;
-        align-self: flex-end;
-        margin-bottom: 15px;
-    }
-}
-@media (max-width:520px){
-    .img-book{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .hombre-panza{
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-        width: 280px;
-        height: 580px;
-    }
-    .pareja-mirandose{
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-    .mujer-panza{
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-        width: 340px;
-        height: 550px;
-    }
-    .pareja-mano{
-        display: flex;
-        align-self: center;
-        margin-bottom: 15px;
-    }
-}
-@media (max-width:425px){
-    .hombre-panza{
-        width: 250px;
-        height: 520px;
-    }
-    .mujer-panza{
-        width: 310px;
-        height: 520px;
-    }
-}
-@media (max-width:375px){
-    .pareja-mirandose{
-        width: 300px;
-        height: 230px;
-    }
-    .mujer-panza{
-        width: 280px;
-        height: 480px;
-    }
-    .pareja-mano{
-        width: 300px;
-        height: 300px;
-    }
-}
-@media (max-width:320px){
-    .pareja-mirandose{
-        width: 270px;
-        height: 190px;
-    }
-    .mujer-panza{
-        width: 250px;
-        height: 420px;
-    }
-    .pareja-mano{
-        width: 270px;
-        height: 270px;
-    }
-}
-/**BODA/CIVIL*/
-@media (max-width: 1024px){
-    .main-section li{
-        display: inline;
-        font-size: 24px;
-        padding: 35px;
-    }
-    .img-boda{
-        margin: 0;
-    }
-    .casados-mirandose{
-        margin-bottom: 20px;
-    }
-    .mujer-mirandomarido{
-        margin-bottom: 20px;
-    }
-    .pareja-civil{
-        margin-top: 15px;
-    }
-}
-@media (max-width: 820px){
-    .navBar2 li{
-        font-size: 18px;
-    }
-    .img-boda{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .familia-libreta{
-        display: flex;
-        align-self: center;
-        width: 613px;
-        margin-bottom: 15px;
-    }
-    .casados-mirandose{
-        margin-bottom: 15px;
-    }
-    .mujer-mirandomarido{
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width: 794px){
-    .pareja-civil{
-        display: flex;
-        align-self: center;
-    }
-}
-@media (max-width: 784px){
-    .casados-mirandose{
-        width: 470px;
-        height: 700px;
-    }
-    .pareja-civil{
-        width: 600px;
-        height: 300px;
-    }
-}
-@media (max-width:768px){
-    .main-section li{
-        display: inline;
-        font-size: 17px;
-        padding: 25px;
-
-    }
-    .descripcion-boda p{
-        font-size: 17px;
-        text-align: center;
-    }
-    .navBar2{
-        background-color: beige;
-    }
-    .img-boda{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .familia-libreta{
-        display: flex;
-        align-self: flex-end;
-        width: 580px;
-    }
-    .casados-mirandose{
-        display: flex;
-        align-self: center;
-        margin-bottom: 20px;
-    }
-    .mujer-mirandomarido{
-        display: flex;
-        align-self: center;
-        margin-bottom: 20px;
-    }
-    .pareja-civil{
-        display: flex;
-        align-self: flex-start;
-        width: 650px;
-        margin-left: 20px;
-    }
-}
-/**
-@media (max-width:700px){
-    .navBar2 li{
-        font-size: 18px;
-    }
-}
-*/
-@media (max-width: 744px){
-    .main-section li{
-        display: inline;
-        font-size: 17px;
-        padding: 20px;
-    }
-}
-@media (max-width:668px){
-    .galeria-boda{
-        margin: 0px;
-    }
-    .pareja-civil{
-        display: flex;
-        align-self: center;
-        margin-left: 50px;
-
-    }
-}
-@media (max-width: 660px){
-    .familia-libreta{
-        width: 520px;
-        height: 380px;
-    }
-    .pareja-civil{
-        width: 580px;
-        height: 320px;
-    }
-}
-
-/**
-@media (max-width:602px){
-    .familia-libreta{
-        width: 580px;
-        height: 415px;
-    }
-    .pareja-civil{
-        width: 600px;
-        height: 320px;
-    }
-}
-*/
-@media (max-width: 645px){
-    .navBar2{
-        padding: 15px;
-    }
-    .main-section li{
-        display: inline;
-        padding: 15px;
-    }
-    .descripcion-boda p{
-        text-align: center;
-        font-size: 16px;
-    }
-    
-    .galeria-boda{
-        margin: 0;
-    }
-    .img-boda{
-        display: flex;
-        flex-direction: column;
-    }
-    .familia-libreta{
-        display: flex;
-        align-self: center;
-        padding-left: 25px;
-    }
-    .pareja-civil{
-        display: flex;
-        align-self: center;
-        
-    }
-}
-
-@media (max-width: 610px){
-    .descripcion-boda p{
-        text-align: center;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 598px){
-    .main-section ul{
-        padding: 12px;
-    }
-    .familia-libreta{
-        width: 500px;
-        height: 380px;
-    }
-    .pareja-civil{
-        width: 500px;
-        height: 350px;
-    }
-}
-@media (max-width: 581px){
-    .descripcion-boda p{
-        text-align: center;
-        padding-right: 20px;
-    }
-}
-
-/**
-@media (max-width:578px){
-    .familia-libreta{
-        width: 540px;
-    }
-}
-*/
-
-@media (max-width:572px){
-    .descripcion-boda{
-        text-align: center;
-        padding-right: 15px;
-        
-    }
-    .familia-libreta{
-        width: 488px;
-        height: 360px;
-    }
-    .casados-mirandose{
-        width: 500px;
-        height: 720px;
-    }
-    .pareja-civil{
-        width: 520px;
-        height: 420px;
-    }
-}
-@media (max-width: 555px){
-    .main-section ul{
-        font-size: 16px;
-        padding: 10px;
-    }
-}
-@media (max-width:553px){
-    .container-1{
-        position: static;
-    }
-    .main-section ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ebdfc1;
-    }
-    .familia-libreta{
-        width: 480px;
-        height: 380px;
-    }
-    .casados-mirandose{
-        width: 400px;
-        height: 650px;
-    }
-    .mujer-mirandomarido{
-        width: 350px;
-        height: 350px;
-    }
-    .pareja-civil{
-        width: 500px;
-        height: 400px;
-    }
-}
-
-    @media (max-width:425px){
-    .container-1{
-        position: static;
-        }
-    .main-section ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ebdfc1;
-        }
-    .img-boda{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .familia-libreta{
-        width: 400px;
-        height: 300px;
-        align-self: center;
-    }
-    .casados-mirandose{
-        width: 350px;
-        height: 600px;
-    }
-    .mujer-mirandomarido{
-        width: 300px;
-        height: 300px;
-    }
-    .pareja-civil{
-        align-self: center;
-        padding-left: 20px;
-        width: 410px;
-        height: 290px;
-    }
-    }
-@media (max-width: 375px){
-    .familia-libreta{
-        width:350px;
-        height: 280px;
-    }
-    .pareja-civil{
-        width: 360px;
-        height: 270px;
-    }
-}
-@media (max-width:320px){
-    .descripcion-boda p{
-        font-size: 16px;
-    }
-    .familia-libreta{
-        width: 315px;
-        height: 250px;
-    }
-    .casados-mirandose{
-        width: 310px;
-        height: 560px;
-    }
-    .mujer-mirandomarido{
-        width: 270px;
-        height: 270px;
-    }
-}
-
-
-
-/**
-@media (max-width:320px){
-    .mail-section ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-    .familia-libreta{
-        width: 270px;
-        height: 250px;
-    }
-    .casados-mirandose{
-        width: 220px;
-        height: 380px;
-    }
-    .mujer-mirandomarido{
-        width: 220px;
-        height: 220px;
-    }
-    .pareja-civil{
-        width: 300px;
-        height: 180px;
-        display: flex;
-        align-self: center;
-    }
-}
-*/
-/**RESPONSIVE EVENTOS*/
-@media (max-width: 1024px){
-    .main-section li{
-        display: inline;
-        font-size: 24px;
-        padding: 35px;
-        }
-    .familia-sonriendo{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-    }
-    .nene-mama{
-        width: 500px;
-        height: 750px;
-    }
-    }
-    @media (max-width: 988px){
-        .main-section li{
-            display: inline;
-            font-size: 20px;
-        }
-    }
-    @media (max-width: 978px){
-        .familia-sonriendo{
-            width: 760px;
-            height: 300px;
-        }
-        }
-    
-@media (max-width: 978px){
-    .familia-sonriendo{
-        width: 840px;
-        height: 320px;
-    }
-    }
-    @media (max-width:900px){
-        .main-section li{
-            display: inline;
-            font: 19px;
-        }
-    }
-    @media (max-width: 896px){
-        .main-section li{
-            display: inline;
-            font-size: 18px;
-        }
-    }
-@media (max-width:869px){
-    .familia-sonriendo{
-        width: 770px;
-        height: 300px;
-    }
-    .nene-mama{
-        width: 500px;
-        height: 880px;
-    }
-}
-@media (max-width: 858px){
-    .main-section li{
-        padding: 30px;
-    }
-}
-@media (max-width:840px){
-    .galeria-boda{
-        margin: 0;
-    }
-}
-@media (max-width: 812px){
-    .img-eventos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .nene-sonriendo{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-
-    }
-    .familia-sonriendo{
-        width: 650px;
-        height: 300px;
-    }
-    .nene-mama{
-        width: 500;
-        height: 750px;
-    }
-    .nene-boca{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        width: 500px;
-        height: 600px;
-    }
-}
-    @media (max-width:786px){
-        .main-section li{
-            padding: 28px;
-        }
-    }
-@media (max-width:768px){
-    .main-section li{
-        display: inline;
-        font-size: 16px;
-        padding: 28px;
-    }
-    .descripcion-eventos p{
-        text-align: center;
-        font-size: 17px;
-    }
-    .navBar2{
-        background-color: beige;
-    }
-    .nene-sonriendo{
-        width: 320px;
-        height: 320px;
-    }
-    .familia-sonriendo{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        width: 425px;
-        height: 200px;
-    }
-    .nene-mama{
-        display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        width: 390px;
-        height: 415px;
-    }
-    .nene-boca{
-        display: flex;
-        flex-direction: column;
-        align-self: flex-end;
-        width: 350px;
-        height: 450px;
-    }
-}
-@media (max-width: 736px){
-    .main-section li{
-        padding: 26px;
-    }
-}
-@media (max-width: 724px){
-    .main-section li{
-        padding: 24px;
-    }
-}
-@media (max-width: 688px){
-    .main-section li{
-        padding: 22px;
-    }
-}
-@media (max-width: 660px){
-    .main-section li{
-        padding: 18px;
-    }
-}
-@media (max-width: 646px){
-    .main-section li{
-        padding: 16px;
-    }
-}
-@media (max-width: 620px){
-
-    .familia-sonriendo{
-        width: 500px;
-        height: 250px;
-    }
-    
-}
-@media (max-width: 594px){
-    .main-section li{
-        padding: 11px;
-    }
-}
-
-@media (max-width:520px){
-    .nene-sonriendo{
-        width: 320px;
-        height: 320px;
-    }
-    .familia-sonriendo{
-        width: 420px;
-        height: 200px;
-    }
-    .nene-mama{
-        width: 400px;
-        height: 580px;
-    }
-    .nene-boca{
-        width: 350px;
-        height: 450px;
-    }
-}
-
-@media (max-width: 475px){
-    .container-1{
-        position: static;
-        }
-    .main-section ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ebdfc1;
-        }
-    .main-section li{
-        display: flex;
-        flex-direction: column;
-        }
-    .nene-sonriendo{
-        width: 290px;
-        height: 290px;
-    }
-    .familia-sonriendo{
-        width: 370px;
-        height: 170px;
-    }
-    .nene-mama{
-        width: 290px;
-        height: 370px;
-    }
-    .nene-boca{
-        width: 320px;
-        height: 400px;
-    }
-}
-@media (max-width:375px){
-    .nene-sonriendo{
-        width: 250px;
-        height: 250px;
-    }
-    .familia-sonriendo{
-        width: 300px;
-        height: 130px;
-    }
-    .nene-mama{
-        width: 280px;
-        height: 350px;
-    }
-    .nene-boca{
-        width: 250px;
-        height: 320px;
-    }
-}
-@media (max-width:320px){
-    .descripcion-eventos p{
-        font-size: 16px;
-    }
-    .nene-sonriendo{
-        width: 220px;
-        height: 220px;
-    }
-    .familia-sonriendo{
-        width: 290px;
-        height: 120px;
-    }
-    .nene-mama{
-        width: 210px;
-        height: 310px;
-    }
-    .nene-boca{
-        width: 230px;
-        height: 290px;
-    }
-}
-/**RESPONSIVE CONTACTOSSS*/
-@media (max-width:1024px){
-    .main-contacto li{
-        display: inline;
-        padding: 35px;
-        font-size: 20px;
-    }
-}
-@media (max-width: 768px){
-    .main-contacto li{
-        display: inline;
-        padding: 15px;
-        font-size: 16px;
-    }
-    .navBarContacto{
-    background-color: beige;
-}
-}
-@media (max-width:640px){
-    .main-contacto li{
-        display: inline;
-        padding: 10px;
-        font-size: 16px;
-    }
-}
-@media (max-width:594px){
-    .main-contacto li{
-        display: inline;
-        padding: 8px;
-        font-size: 16px;
-    }
-}
-@media (max-width: 570px){
-    .main-contacto li{
-        display: inline;
-        padding: 6px;
-        font-size: 16px;
-    }
-}
-@media (max-width: 540px){
-    .main-contacto li{
-        display: inline;
-        padding: 4px;
-        font-size: 16px;
-    }
-}
-@media (max-width:520px){
-    .container-contacto{
-        position: static;
-    }
-    .main-contacto li{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-    }
-}
-
-
+*/ }
+    .galeria-book .img-book .hombre-panza {
+      grid-area: img1;
+      object-fit: cover;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      padding: 20px; }
+    .galeria-book .img-book .pareja-mirandose {
+      grid-area: img2;
+      object-fit: cover;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      margin-left: 20px; }
+    .galeria-book .img-book .mujer-panza {
+      grid-area: img3;
+      object-fit: cover;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      margin: 0; }
+    .galeria-book .img-book .pareja-mano {
+      grid-area: img4;
+      object-fit: cover;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 4;
+      justify-self: center; }
+
+/**UTILIZAR @EXTEND PARA COPIAR MISMAS ETIQUETAS: FONT SIZE COLOR ETC*/

@@ -1,0 +1,152 @@
+.container-1{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    .main-buscador {
+        padding: 40px;
+        background-color: #E6DDC6;
+        position: sticky;
+    
+    .navBar li {
+        display: inline;
+        font-size: 23px;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        padding-left: 110px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: black;
+    }
+    
+    .navBar a {
+        text-decoration: none;
+        color: black;
+        
+    
+    &:hover{
+        color:grey;
+        text-decoration: underline;
+    }
+    &:active{
+        color:#dd9d4e
+    }
+    &::selection{
+        background-color: #7e5f5f;
+        color: white;
+    
+}
+}
+}
+}
+.section-index {
+    background-image: url(../assets/img/photo-1618339665980-9fe338a21dcd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    .descripcion-index {
+        @include flex(row-reverse,space-between,15px);
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 100px;
+        padding-right: 100px; 
+    
+    p {
+        
+        align-self:  center;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 50px;
+        font-size: 35px;
+        color: white;
+        margin-top: 0px;
+    
+    &::selection{
+        background-color: #C2B8A3;
+        color: black;
+    }
+}
+    .fotoFlor {
+        width: 350px;
+        height: 300px;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        box-shadow: 5px 5px 5px 5px white;
+        
+    }
+}
+}
+
+.galeria-1{
+    width: 90%;
+    margin: auto;
+    .img-index {
+        display: flex;
+        flex-direction: column;
+    }
+    .corazon-embarazada {
+        display: flex;
+        align-self: flex-start;
+        margin-top: 15px;
+        width: 262px;
+        height: 402px;
+    }
+    
+    .mujeres-beso {
+        display: flex;
+        align-self: flex-end;
+        margin-top: 15px;
+        width: 371px;
+        height: 486px;
+    }
+    
+    .mujer-mirando {
+        display: flex;
+        align-self: flex-start;
+        margin-top: 25px;
+        width: 169px;
+        height: 196px;
+    }
+    
+    .hombre-nene {
+        display: flex;
+        align-self: flex-end;
+        margin-top: 20px;
+        width: 480px;
+        height: 128px;
+    }
+    
+    .pareja-byn {
+        display: flex;
+        align-self: flex-start;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 396px;
+        height: 182px;
+    }
+    
+    .familia-feliz {
+        display: flex;
+        align-self: flex-end;
+        margin-top: 40px;
+        width: 258px;
+        height: 384px;
+    }
+    
+    .nene-sonriendo1 {
+        display: flex;
+        align-self: center;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        width: 212px;
+        height: 544px;
+    }
+    }  

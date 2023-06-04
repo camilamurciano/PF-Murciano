@@ -1,0 +1,58 @@
+.container-contacto{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    .main-contacto {
+        background-color: #A19882;
+    .navBarContacto{
+        margin-bottom: 0px;
+        padding: 30px;
+    }
+    .navBarContacto li {
+        display: inline;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        padding: 60px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+        }
+        .navBarContacto a {
+            text-decoration: none;
+            color: black;
+        
+        &:hover{
+            color:beige;
+            text-decoration: underline;
+        }
+        &:active{
+            color:#7e5f5f
+        }
+        &::selection{
+            background-color: #7e5f5f;
+            color: white;
+        }
+    }
+}
+}
+.mail-contacto {
+    background-color: #C2B8A3;
+
+    p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 700px;
+
+&::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+    }
+}

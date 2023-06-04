@@ -1,0 +1,100 @@
+.container-1{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    
+.main-section {
+    background-color: #A19882;
+    padding: 35px;
+
+    .navBar2 li {
+    display: inline;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.navBar2 {
+    background-color: #A19882;
+    
+}
+.navBar2 a {
+    text-decoration: none;
+    color: black;
+
+&:hover{
+    color:beige;
+    text-decoration: underline;
+}
+&:active{
+    color:#7e5f5f
+}
+&::selection{
+    background-color: #7e5f5f;
+    color: white;
+}
+}
+}
+}
+.descripcion-boda{
+    background-color: #C2B8A3;
+    background-size: cover;
+
+    p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+    
+    &::selection{
+        background-color: #7e5f5f;
+        color: white;
+        }
+}
+
+
+}
+
+.galeria-boda{
+    width: 90%;
+    margin: auto;
+    
+    .img-boda {
+        @include flex-img(column,center,30px);
+        display: flex;
+        .familia-libreta {
+            width: 813px;
+            height: 437px;
+        }
+        
+        .casados-mirandose {
+            display: flex;
+            align-self: flex-start;
+            padding-top: 30px;
+            width: 553px;
+            height: 834px;
+        }
+        
+        .mujer-mirandomarido {
+            display: flex;
+            align-self: flex-end;
+            width: 444px;
+            height: 444px;
+        }
+        
+        .pareja-civil {
+            display: flex;
+            align-self: flex-start;
+            margin-bottom: 50px;
+            width: 800px;
+            height: 385px;
+        }
+        }
+        }
