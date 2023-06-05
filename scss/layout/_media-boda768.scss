@@ -1,0 +1,258 @@
+
+@media (max-width:768px){
+    .container-1{
+        .main-section {
+            padding: 28px;
+            .navBar2{
+                background-color: beige;
+            li{
+        display: inline;
+        font-size: 17px;
+        padding: 25px;
+    }
+    }
+    }
+    .descripcion-boda{
+    p{
+        font-size: 17px;
+        text-align: center;
+    }
+}
+    .galeria-boda{
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    .familia-libreta{
+        display: flex;
+        align-self: flex-end;
+        width: 580px;
+    }
+    .casados-mirandose{
+        display: flex;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .mujer-mirandomarido{
+        display: flex;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .pareja-civil{
+        display: flex;
+        align-self: flex-start;
+        width: 650px;
+        margin-left: 20px;
+    }
+}
+}
+}
+@media (max-width: 744px){
+    .container-1{
+        .main-section{
+            padding: 26px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 24px;
+            }
+        }
+    }
+    }
+    /*@media (max-width:730px){
+        .galeria-boda{
+            margin: 0px;
+        }
+    }
+    **/
+    @media (max-width:696px){
+        .container-1{
+            .main-section{
+                padding: 24px;
+                .navBar2 li{
+                    display: inline;
+                    font-size: 17px;
+                    padding: 22px;
+                }
+            }
+        }
+    }
+@media (max-width:668px){
+    .container-1{
+        .main-section{
+            padding: 23px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 20px;
+            }
+        }
+    }
+}
+.galeria-boda{
+    margin: 0px;
+.img-boda{
+.pareja-civil{
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+
+}
+}
+}
+@media (max-width: 645px){
+    .container-1{
+        .main-section{
+            padding: 21px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 19px;
+            }
+        }
+    }
+    .descripcion-boda{
+        p{
+        text-align: center;
+        font-size: 16px;
+    }
+}
+    .galeria-boda{
+        margin: 0;
+    .img-boda{
+        display: flex;
+        flex-direction: column;
+    .familia-libreta{
+        display: flex;
+        align-self: center;
+        padding-left: 25px;
+    }
+    .pareja-civil{
+        margin: 0px;
+        display: flex;
+        align-self: center;
+        width: 550px;
+        height: 350px;
+        
+    }
+}
+}
+}
+@media (max-width:628px){
+    .container-1{
+        .main-section{
+            padding: 19px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 17px;
+}
+}
+}
+}
+@media (max-width: 610px){
+    .container-1{
+        .main-section{
+            padding: 17px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 15px
+               }
+                }
+
+    .descripcion-boda{
+        p{
+        text-align: center;
+        padding-right: 20px;
+    }
+}
+}
+}
+
+
+
+@media (max-width: 581px){
+    .descripcion-boda{
+        p{
+        text-align: center;
+        padding-right: 20px;
+    }
+}
+}
+
+@media (max-width:572px){
+    .descripcion-boda{
+        text-align: center;
+        padding-right: 15px;
+        
+    }
+    .galeria-boda{
+        .img-boda{
+    .familia-libreta{
+        width: 488px;
+        height: 360px;
+    }
+    .casados-mirandose{
+        width: 500px;
+        height: 720px;
+    }
+    .pareja-civil{
+        width: 520px;
+        height: 420px;
+    }
+}
+}
+}
+@media (max-width: 555px){
+    .container-1{
+        .main-section{
+            padding: 20px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 17px;
+    }
+}
+}
+}
+
+@media (max-width:553px){
+    .container-1{
+        position: static;
+    .main-section{
+        .navBar2 li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ebdfc1;
+}
+}
+}
+
+.galeria-boda{
+    .img-boda{
+    .familia-libreta{
+        width: 480px;
+        height: 380px;
+        align-self: center;
+    }
+    .casados-mirandose{
+        width: 400px;
+        height: 650px;
+        align-self: center;
+    }
+    .mujer-mirandomarido{
+        width: 350px;
+        height: 350px;
+        align-self: center;
+    }
+    .pareja-civil{
+        width: 480px;
+        height: 350px;
+        align-self: center;
+    }
+}
+}
+}
+}

@@ -1,0 +1,139 @@
+@media (max-width:1024px){
+    .headerFormulario{
+        h1{
+            font-size: 60px;
+        }
+    }
+    .container{
+        .main-buscador{
+            padding: 25px;
+            .navBar li{
+            padding-left: 70px;
+            font-size: 21px;
+        }
+    }
+}
+.section-index{
+    .descripcion-index{
+        p{
+            font-size: 25px;
+        }
+    }
+}
+/*
+    .navBar li{
+        padding: 30px;
+        font-size: 21px;
+    }
+    .descripcion-index p{
+        font-size: 25px;
+    }
+}
+*/
+@media (max-width:969px){
+    .headerFormulario{
+        h1{
+            font-size: 50px;
+        } 
+    }
+}
+@media(max-width:866px){
+    .headerFormulario{
+        h1{
+            font-size: 45px;
+        }
+    }
+    }
+    .container-1{
+        .main-buscador{
+            padding: 25px;
+            .navBar li{
+                padding: 25px;
+                font-size: 20px;
+            }
+        }
+    }
+    .section-index{
+        .descripcion-index{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            gap: 10px;
+            padding-top: 50px;
+            padding-bottom: 150px;
+            padding-left: 70px;
+            padding-right: 70px;
+        
+            p{
+                font-size: 22px;
+                text-align: center;
+
+            }
+        }
+    }
+    }
+    
+    /*
+    .navBar li{
+        padding: 25px;
+        font-size: 20px;
+    }
+    .descripcion-index p{
+        font-size: 22px;
+        text-align:center;
+    }
+    .descripcion-index{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 70px;
+        padding-right: 70px;
+    
+}
+}
+*/
+@media (max-width:800px){
+    .container{
+        .main-buscador{
+            .navBar li{
+                padding: 20px;
+                font-size: 18px;
+            }
+        }
+    }
+    .section-index{
+        .descripcion-index{
+            display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: auto;
+        gap: 8px;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 60px;
+        padding-right: 60px;
+
+        }
+    }
+    }
+    /*
+    .navBar li{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .descripcion-index{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: auto;
+        gap: 8px;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 60px;
+        padding-right: 60px;
+}
+}
+*/

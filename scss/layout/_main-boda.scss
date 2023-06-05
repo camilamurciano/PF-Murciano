@@ -70,7 +70,9 @@
         @include flex-img(column,center,30px);
         display: flex;
         .familia-libreta {
-            width: 813px;
+            display: flex;
+            align-self: center;
+            width: 812px;
             height: 437px;
         }
         
