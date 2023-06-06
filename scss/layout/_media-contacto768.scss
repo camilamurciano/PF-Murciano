@@ -1,0 +1,67 @@
+@media (max-width: 768px){
+    .container-contacto{
+        .main-contacto{
+    .navBarContacto li{
+        display: inline;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+}
+}
+@media (max-width:640px){
+    .container-contacto{
+        .main-contacto{
+            .navBarContacto li{
+                display: inline;
+                padding: 10px;
+                font-size: 16px;
+        }
+    }
+}
+}
+@media (max-width:594px){
+    .container-contacto{
+        .main-contacto{
+            .navBarContacto li{
+                display: inline;
+                padding: 8px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 570px){
+    .container-contacto{
+        .main-contacto{
+            .navBarContacto li{
+                display: inline;
+                padding: 6px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 540px){
+    .container-contacto{
+        .main-contacto{
+            .navBarContacto li{
+                display: inline;
+                padding: 4px;
+                font-size: 16px;
+            }
+        }
+        }
+}
+@media (max-width:520px){
+    .container-contacto{
+        position: static;
+        .main-contacto{
+            .navBarContacto li{
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+            }
+        }
+    }
+    }

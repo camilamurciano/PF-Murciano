@@ -1580,4 +1580,48 @@ h2 {
     width: 230px;
     height: 290px; } }
 
+@media (max-width: 1024px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    font-size: 20px;
+    padding: 35px; } }
+
+@media (max-width: 768px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    padding: 15px;
+    font-size: 16px; } }
+
+@media (max-width: 640px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px; } }
+
+@media (max-width: 594px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    padding: 8px;
+    font-size: 16px; } }
+
+@media (max-width: 570px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    padding: 6px;
+    font-size: 16px; } }
+
+@media (max-width: 540px) {
+  .container-contacto .main-contacto .navBarContacto li {
+    display: inline;
+    padding: 4px;
+    font-size: 16px; } }
+
+@media (max-width: 520px) {
+  .container-contacto {
+    position: static; }
+    .container-contacto .main-contacto .navBarContacto li {
+      display: flex;
+      flex-direction: column;
+      align-self: center; } }
+
 /**UTILIZAR @EXTEND PARA COPIAR MISMAS ETIQUETAS: FONT SIZE COLOR ETC*/
