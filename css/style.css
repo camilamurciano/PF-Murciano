@@ -1028,6 +1028,140 @@ h2 {
     margin-bottom: 15px; } }
 
 @media (max-width: 1024px) {
+  .galeria-book .img-book .hombre-panza {
+    width: 320px;
+    height: 750px; }
+  .galeria-book .img-book .pareja-mirandose {
+    width: 450px;
+    height: 320px; } }
+
+@media (max-width: 976px) {
+  .galeria-book .img-book .hombre-panza {
+    width: 320px;
+    height: 720px; }
+  .galeria-book .img-book .pareja-mirandose {
+    width: 400px;
+    height: 300px; }
+  .galeria-book .img-book .mujer-panza {
+    margin-top: 15px;
+    width: 420px;
+    height: 700px;
+    margin-bottom: 15px; }
+  .galeria-book .img-book .pareja-mano {
+    width: 380px;
+    height: 380px; } }
+
+@media (max-width: 894px) {
+  .galeria-book .img-book {
+    margin: 0px; } }
+
+@media (max-width: 870px) {
+  .galeria-book .img-book .hombre-panza {
+    width: 320px;
+    height: 680px; }
+  .galeria-book .img-book .pareja-mirandose {
+    width: 360px;
+    height: 300px; }
+  .galeria-book .img-book .mujer-panza {
+    margin-top: 15px;
+    width: 380px;
+    height: 620px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 802px) {
+  .container-1 .main-section .navBar2 li {
+    font-size: 18px;
+    padding: 12px; }
+  .galeria-book .img-book .pareja-mirandose {
+    width: 330px;
+    height: 260px; }
+  .galeria-book .img-book .pareja-mano {
+    width: 340px;
+    height: 340px; } }
+
+@media (max-width: 768px) {
+  .galeria-book .img-book {
+    display: flex;
+    flex-direction: column;
+    width: 90%; }
+    .galeria-book .img-book .hombre-panza {
+      display: flex;
+      align-self: flex-start;
+      margin-bottom: 15px;
+      width: 300px;
+      height: 600px; }
+    .galeria-book .img-book .pareja-mirandose {
+      display: flex;
+      align-self: flex-end;
+      margin-bottom: 15px; }
+    .galeria-book .img-book .mujer-panza {
+      display: flex;
+      align-self: flex-start;
+      margin-bottom: 15px;
+      width: 350px;
+      height: 580px; }
+    .galeria-book .img-book .pareja-mano {
+      display: flex;
+      align-self: flex-end;
+      margin-bottom: 15px; } }
+
+@media (max-width: 520px) {
+  .galeria-book .img-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .galeria-book .img-book .hombre-panza {
+      display: flex;
+      align-self: center;
+      margin-bottom: 15px;
+      width: 280px;
+      height: 580px; }
+    .galeria-book .img-book .pareja-mirandose {
+      display: flex;
+      align-self: center;
+      margin-bottom: 15px; }
+    .galeria-book .img-book .mujer-panza {
+      display: flex;
+      align-self: center;
+      margin-bottom: 15px;
+      width: 340px;
+      height: 550px; }
+    .galeria-book .img-book .pareja-mano {
+      display: flex;
+      align-self: center;
+      margin-bottom: 15px; } }
+
+@media (max-width: 425px) {
+  .galeria-book .img-book .hombre-panza {
+    width: 250px;
+    height: 520px; }
+  .galeria-book .img-book .mujer-panza {
+    width: 310px;
+    height: 520px; } }
+
+@media (max-width: 375px) {
+  .galeria-book .img-book .pareja-mirandose {
+    width: 300px;
+    height: 230px; }
+  .galeria-book .img-book .mujer-panza {
+    width: 280px;
+    height: 480px; }
+  .galeria-book .img-book .pareja-mano {
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 320px) {
+  .galeria-book .img-book .pareja-mirandose {
+    width: 270px;
+    height: 190px; }
+  .galeria-book .img-book .mujer-panza {
+    width: 250px;
+    height: 420px; }
+  .galeria-book .img-book .pareja-mano {
+    width: 270px;
+    height: 270px; } }
+
+@media (max-width: 1024px) {
   .container-1 .main-section .navBar2 li {
     display: inline;
     font-size: 24px;
