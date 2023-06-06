@@ -1,0 +1,200 @@
+@media (max-width:768px){
+    .container-1{
+        .main-section {
+            padding: 28px;
+            .navBar2 li{
+            display: inline;
+            font-size: 16px;
+            padding: 25px;
+    }
+    }
+    }
+    .descripcion-eventos{
+    p{
+        text-align: center;
+        font-size: 17px;
+    }
+}
+}
+@media (max-width: 750px){
+    .galeria-eventos{
+        .img-eventos{
+        .nene-sonriendo{
+        width: 320px;
+        height: 320px;
+    }
+    .familia-sonriendo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 425px;
+        height: 200px;
+    }
+    .nene-mama{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 390px;
+        height: 415px;
+    }
+    .nene-boca{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        width: 350px;
+        height: 450px;
+    }
+}
+}
+}
+
+@media (max-width: 736px){
+    .container-1{
+        .main-section{
+            padding: 26px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 24px;
+            }
+        }
+    }
+    }
+@media (max-width: 724px){
+    .main-section li{
+        padding: 24px;
+    }
+}
+@media (max-width: 696px){
+    .container-1{
+        .main-section{
+            padding: 24px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px){
+    .container-1{
+        .main-section{
+            padding: 23px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 646px){
+    .container-1{
+        .main-section{
+            padding: 21px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 19px;
+            }
+        }
+    }
+}
+@media (max-width:628px){
+    .container-1{
+        .main-section{
+            padding: 17px;
+            .navBar2 li{
+                display: inline;
+                font-size: 17px;
+                padding: 1px;
+            }
+        }
+    }
+}
+
+@media (max-width: 620px){
+    .galeria-eventos{
+        .img-eventos{
+    .familia-sonriendo{
+        width: 500px;
+        height: 250px;
+    }
+}
+}
+}
+@media (max-width:571px){
+    .container-1{
+        .main-section{
+            padding: 17px;
+            .navBar2 li{
+                display: inline;
+                font-size: 16px;
+                padding: 15px;
+}
+}
+}
+}
+@media (max-width:553px){
+    .container-1{
+        position: static;
+    .main-section{
+        .navBar2 li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ebdfc1;
+}
+}
+}
+.galeria-eventos{
+    .img-eventos{
+        background-color: #C2B8A3;
+        .nene-sonriendo{
+        align-self: center;
+        width: 320px;
+        height: 320px;
+    }
+    .familia-sonriendo{
+        align-self: center;
+        width: 420px;
+        height: 200px;
+    }
+    }
+}
+}
+
+@media (max-width:520px){
+    .galeria-eventos{
+        .img-eventos{
+    .nene-sonriendo{
+        width: 320px;
+        height: 320px;
+    }
+    .familia-sonriendo{
+        width: 420px;
+        height: 200px;
+    }
+    .nene-mama{
+        width: 400px;
+        height: 580px;
+    }
+    .nene-boca{
+        width: 350px;
+        height: 450px;
+    }
+}
+}
+}
+@media (max-width:440px){
+    .galeria-eventos{
+        .img-eventos{
+            .nene-mama{
+                width: 350px;
+                height: 500px;
+            }
+        }
+    }
+}

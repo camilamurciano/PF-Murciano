@@ -1294,47 +1294,12 @@ h2 {
       height: 290px; } }
 
 @media (max-width: 375px) {
-  .headerFormulario h1 {
-    font-size: 22px; }
-  .galeria-1 .img-index .corazon-embarazada {
-    display: flex;
-    align-self: center;
-    width: 180px;
-    height: 300px;
-    margin-bottom: 15px; }
-  .galeria-1 .img-index .mujeres-beso {
-    width: 260px;
-    height: 360px;
-    margin-bottom: 15px;
-    display: flex;
-    align-self: center; }
-  .galeria-1 .img-index .mujer-mirando {
-    width: 150px;
-    height: 180px;
-    display: flex;
-    align-self: center;
-    margin-bottom: 15px; }
-  .galeria-1 .img-index .hombre-nene {
-    width: 320px;
-    height: 70px;
-    display: flex;
-    align-self: center;
-    margin-bottom: 15px; }
-  .galeria-1 .img-index .pareja-byn {
-    width: 290px;
-    height: 115px;
-    margin-bottom: 15px;
-    display: flex;
-    align-self: center; }
-  .galeria-1 .img-index .familia-feliz {
-    width: 200px;
-    height: 310px;
-    display: flex;
-    align-self: center;
-    margin-bottom: 15px; }
-  .galeria-1 .img-index .nene-sonriendo1 {
-    width: 180px;
-    height: 450px; } }
+  .galeria-boda .img-boda .familia-libreta {
+    width: 350px;
+    height: 280px; }
+  .galeria-boda .img-boda .pareja-civil {
+    width: 360px;
+    height: 270px; } }
 
 @media (max-width: 320px) {
   .descripcion-boda p {
@@ -1348,5 +1313,271 @@ h2 {
   .galeria-boda .img-boda .mujer-mirandomarido {
     width: 270px;
     height: 270px; } }
+
+@media (max-width: 1024px) {
+  .container-1 .main-section .navBar2 li {
+    display: inline;
+    font-size: 24px;
+    padding: 35px; }
+  .galeria-eventos .img-eventos {
+    margin: 0px; }
+    .galeria-eventos .img-eventos .familia-sonriendo {
+      display: flex;
+      flex-direction: column;
+      align-self: center; }
+    .galeria-eventos .img-eventos .nene-mama {
+      width: 500px;
+      height: 750px; } }
+
+@media (max-width: 988px) {
+  .container-1 .main-section .navBar2 li {
+    display: inline;
+    font-size: 24px;
+    padding: 30px; } }
+
+@media (max-width: 978px) {
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 840px;
+    height: 320px; } }
+
+@media (max-width: 938px) {
+  .container-1 .main-section .navBar2 li {
+    display: inline;
+    font-size: 22px;
+    padding: 28px; } }
+
+@media (max-width: 900px) {
+  .container-1 .main-section .navBar2 li {
+    display: inline;
+    font-size: 22px;
+    padding: 28px; } }
+
+@media (max-width: 868px) {
+  .container-1 .main-section {
+    padding: 32px; }
+    .container-1 .main-section .navBar2 li {
+      padding: 28px;
+      font-size: 18px; } }
+
+@media (max-width: 869px) {
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 770px;
+    height: 300px; }
+  .galeria-eventos .img-eventos .nene-mama {
+    width: 500px;
+    height: 880px; } }
+
+@media (max-width: 840px) {
+  .container-1 .galeria-boda {
+    margin: 0; } }
+
+@media (max-width: 812px) {
+  .galeria-eventos .img-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .galeria-eventos .img-eventos .nene-sonriendo {
+      display: flex;
+      flex-direction: column;
+      align-self: center; }
+    .galeria-eventos .img-eventos .familia-sonriendo {
+      width: 660px;
+      height: 300px; }
+    .galeria-eventos .img-eventos .nene-mama {
+      width: 500;
+      height: 750px; }
+    .galeria-eventos .img-eventos .nene-boca {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 500px;
+      height: 600px; } }
+
+@media (max-width: 812px) and (max-width: 786px) {
+  .container-1 .main-section {
+    padding: 28px; } }
+
+@media (max-width: 768px) {
+  .container-1 .main-section {
+    padding: 28px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 16px;
+      padding: 25px; }
+  .descripcion-eventos p {
+    text-align: center;
+    font-size: 17px; } }
+
+@media (max-width: 750px) {
+  .galeria-eventos .img-eventos .nene-sonriendo {
+    width: 320px;
+    height: 320px; }
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 425px;
+    height: 200px; }
+  .galeria-eventos .img-eventos .nene-mama {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 390px;
+    height: 415px; }
+  .galeria-eventos .img-eventos .nene-boca {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 350px;
+    height: 450px; } }
+
+@media (max-width: 736px) {
+  .container-1 .main-section {
+    padding: 26px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 17px;
+      padding: 24px; } }
+
+@media (max-width: 724px) {
+  .main-section li {
+    padding: 24px; } }
+
+@media (max-width: 696px) {
+  .container-1 .main-section {
+    padding: 24px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 17px;
+      padding: 22px; } }
+
+@media (max-width: 680px) {
+  .container-1 .main-section {
+    padding: 23px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 17px;
+      padding: 20px; } }
+
+@media (max-width: 646px) {
+  .container-1 .main-section {
+    padding: 21px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 17px;
+      padding: 19px; } }
+
+@media (max-width: 628px) {
+  .container-1 .main-section {
+    padding: 17px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 17px;
+      padding: 1px; } }
+
+@media (max-width: 620px) {
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 500px;
+    height: 250px; } }
+
+@media (max-width: 571px) {
+  .container-1 .main-section {
+    padding: 17px; }
+    .container-1 .main-section .navBar2 li {
+      display: inline;
+      font-size: 16px;
+      padding: 15px; } }
+
+@media (max-width: 553px) {
+  .container-1 {
+    position: static; }
+    .container-1 .main-section .navBar2 li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ebdfc1; }
+  .galeria-eventos .img-eventos {
+    background-color: #C2B8A3; }
+    .galeria-eventos .img-eventos .nene-sonriendo {
+      align-self: center;
+      width: 320px;
+      height: 320px; }
+    .galeria-eventos .img-eventos .familia-sonriendo {
+      align-self: center;
+      width: 420px;
+      height: 200px; } }
+
+@media (max-width: 520px) {
+  .galeria-eventos .img-eventos .nene-sonriendo {
+    width: 320px;
+    height: 320px; }
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 420px;
+    height: 200px; }
+  .galeria-eventos .img-eventos .nene-mama {
+    width: 400px;
+    height: 580px; }
+  .galeria-eventos .img-eventos .nene-boca {
+    width: 350px;
+    height: 450px; } }
+
+@media (max-width: 440px) {
+  .galeria-eventos .img-eventos .nene-mama {
+    width: 350px;
+    height: 500px; } }
+
+@media (max-width: 425px) {
+  .container-1 {
+    position: static; }
+    .container-1 .main-section ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ebdfc1; }
+      .container-1 .main-section ul .navBar2 li {
+        display: flex;
+        flex-direction: column; }
+  .galeria-eventos .img-eventos .nene-sonriendo {
+    width: 290px;
+    height: 290px; }
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 370px;
+    height: 170px; }
+  .galeria-eventos .img-eventos .nene-mama {
+    width: 290px;
+    height: 370px; }
+  .galeria-eventos .img-eventos .nene-boca {
+    width: 320px;
+    height: 400px; } }
+
+@media (max-width: 375px) {
+  .galeria-eventos .img-eventos .nene-sonriendo {
+    width: 250px;
+    height: 250px; }
+  .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 300px;
+    height: 130px; }
+  .galeria-eventos .img-eventos .nene-mama {
+    width: 280px;
+    height: 350px; }
+  .galeria-eventos .img-eventos .nene-boca {
+    width: 250px;
+    height: 320px; } }
+
+@media (max-width: 320px) {
+  .descripcion-eventos p {
+    font-size: 16px; }
+  .descripcion-eventos .galeria-eventos .img-eventos .nene-sonriendo {
+    width: 220px;
+    height: 220px; }
+  .descripcion-eventos .galeria-eventos .img-eventos .familia-sonriendo {
+    width: 290px;
+    height: 120px; }
+  .descripcion-eventos .galeria-eventos .img-eventos .nene-mama {
+    width: 210px;
+    height: 310px; }
+  .descripcion-eventos .galeria-eventos .img-eventos .nene-boca {
+    width: 230px;
+    height: 290px; } }
 
 /**UTILIZAR @EXTEND PARA COPIAR MISMAS ETIQUETAS: FONT SIZE COLOR ETC*/
