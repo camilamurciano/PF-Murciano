@@ -83,22 +83,16 @@ body{
         }
         
         .marca-3 {
-            align-self: flex-start;
-            width: 460px;
-            height: 460px;
+            @extend .marca-1;
         }
         
         .marca-4 {
-            align-self: flex-end;
-            width: 460px;
-            height: 460px;
+        @extend .marca-2;
         }
         
         .marca-5 {
-            align-self: flex-start;
+            @extend .marca-1;
             margin-bottom: 50px;
-            width: 460px;
-            height: 460px;
         }
         }
         }

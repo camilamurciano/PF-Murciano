@@ -1,7 +1,11 @@
+/*variables: espacio de memoria reservado para alojar un valor de una propiedad*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  margin-top: 0px; }
 
 .headerFoto {
   background-image: url(../assets/img/camara.nikon.jpg);
@@ -179,9 +183,6 @@
     bottom: 1px;
     right: 67px; }
 
-body {
-  margin-top: 0px; }
-
 h2 {
   font-family: 'Castoro Titling', cursive;
   text-align: left;
@@ -266,9 +267,6 @@ h2 {
       margin-bottom: 50px;
       width: 800px;
       height: 385px; }
-
-body {
-  margin-top: 0px; }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -361,9 +359,6 @@ h2 {
       width: 584px;
       height: 776px; }
 
-body {
-  margin-top: 0px; }
-
 h2 {
   font-family: 'Castoro Titling', cursive;
   text-align: left;
@@ -429,31 +424,17 @@ body {
     align-items: center;
     padding: 30px;
     display: flex; }
-    .galeria-contenido .img-contenido .marca-1 {
+    .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
       display: flex;
       align-self: flex-start;
       width: 460px;
       height: 460px; }
-    .galeria-contenido .img-contenido .marca-2 {
-      align-self: flex-end;
-      width: 460px;
-      height: 460px; }
-    .galeria-contenido .img-contenido .marca-3 {
-      align-self: flex-start;
-      width: 460px;
-      height: 460px; }
-    .galeria-contenido .img-contenido .marca-4 {
+    .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
       align-self: flex-end;
       width: 460px;
       height: 460px; }
     .galeria-contenido .img-contenido .marca-5 {
-      align-self: flex-start;
-      margin-bottom: 50px;
-      width: 460px;
-      height: 460px; }
-
-body {
-  margin-top: 0px; }
+      margin-bottom: 50px; }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -1715,10 +1696,10 @@ h2 {
     height: 290px; } }
 
 @media (max-width: 880px) {
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     width: 420px;
     height: 420px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     width: 420px;
     height: 420px; }
   .galeria-contenido .img-contenido .marca-3 {
@@ -1732,10 +1713,10 @@ h2 {
     height: 420px; } }
 
 @media (max-width: 790px) {
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     width: 400px;
     height: 400px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     width: 400px;
     height: 400px; }
   .galeria-contenido .img-contenido .marca-3 {
@@ -1749,10 +1730,10 @@ h2 {
     height: 400px; } }
 
 @media (max-width: 740px) {
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     width: 330px;
     height: 330px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     width: 330px;
     height: 330px; }
   .galeria-contenido .img-contenido .marca-3 {
@@ -1780,11 +1761,11 @@ h2 {
       font-size: 17px;
       padding: 17px; } }
 
-.galeria-contenido .img-contenido .marca-1 {
+.galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
   width: 290px;
   height: 290px; }
 
-.galeria-contenido .img-contenido .marca-2 {
+.galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
   width: 290px;
   height: 290px; }
 
@@ -1806,11 +1787,11 @@ h2 {
     .container-1 .main-section .navBar2 li {
       font-size: 17px;
       padding: 16px; }
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     margin-bottom: 15px;
     width: 240px;
     height: 240px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     margin-bottom: 15px;
     width: 240px;
     height: 240px; }
@@ -1830,11 +1811,11 @@ h2 {
 @media (max-width: 425px) {
   .descripcion-contenido p {
     font-size: 17px; }
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     margin-bottom: 15px;
     width: 200px;
     height: 200px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     margin-bottom: 15px;
     width: 200px;
     height: 200px; }
@@ -1852,12 +1833,12 @@ h2 {
     height: 200px; } }
 
 @media (max-width: 375px) {
-  .galeria-contenido .img-contenido .marca-1 {
+  .galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
     align-self: center;
     margin-bottom: 15px;
     width: 180px;
     height: 180px; }
-  .galeria-contenido .img-contenido .marca-2 {
+  .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
     align-self: center;
     margin-bottom: 15px;
     width: 180px;
@@ -1878,12 +1859,12 @@ h2 {
     width: 180px;
     height: 180px; } }
 
-.galeria-contenido .img-contenido .marca-1 {
+.galeria-contenido .img-contenido .marca-1, .galeria-contenido .img-contenido .marca-3, .galeria-contenido .img-contenido .marca-5 {
   margin-bottom: 15px;
   width: 150px;
   height: 150px; }
 
-.galeria-contenido .img-contenido .marca-2 {
+.galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
   margin-bottom: 15px;
   width: 150px;
   height: 150px; }
