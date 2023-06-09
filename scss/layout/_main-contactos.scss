@@ -3,7 +3,7 @@
     top: 0;
     z-index: 4;
     .main-contacto {
-        background-color: #A19882;
+        background-color: $color-1;
     .navBarContacto{
         margin-bottom: 0px;
         padding: 30px;
@@ -24,21 +24,21 @@
             color: black;
         
         &:hover{
-            color:beige;
+            color:$color-pages-hover;
             text-decoration: underline;
         }
         &:active{
-            color:#7e5f5f
+            color:$color-pages-active;
         }
         &::selection{
-            background-color: #7e5f5f;
+            background-color: $color-pages-active;
             color: white;
         }
     }
 }
 }
 .mail-contacto {
-    background-color: #C2B8A3;
+    background-color: $color-3;
 
     p{
     font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@
     font-weight: 700px;
 
 &::selection{
-    background-color: #7e5f5f;
+    background-color: $color-pages-active;
     color: white;
 }
     }

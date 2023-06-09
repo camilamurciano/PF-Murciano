@@ -4,7 +4,7 @@
     z-index: 4;
     
 .main-section {
-    background-color: #A19882;
+    background-color: $color-1;
     padding: 35px;
 
     .navBar2 li {
@@ -19,7 +19,7 @@
 
 }
 .navBar2 {
-    background-color: #A19882;
+    background-color: $color-1;
     
 }
 .navBar2 a {
@@ -31,17 +31,17 @@
     text-decoration: underline;
 }
 &:active{
-    color:#7e5f5f
+    color: $color-pages-active;
 }
 &::selection{
-    background-color: #7e5f5f;
+    background-color: $color-pages-active;
     color: white;
 }
 }
 }
 }
 .descripcion-book{
-    background-color: #C2B8A3;
+    background-color: $color-3;
     background-size: cover;
 
     p{
@@ -54,19 +54,19 @@
     color: black;
         
     &::selection{
-        background-color: #7e5f5f;
+        background-color: $color-pages-active;
         color: white;
         }
     }
 }
 
 .galeria-book{
-    background-color: #C2B8A3;
+    background-color: $color-3;
     background-size: contain;
     margin: auto;
     width: 90%;
     .img-book {
-        background-color: #C2B8A3;
+        background-color: $color-3;
         background-size: contain;
         @include grids(auto,repeat(2,1fr),repeat(4,auto),"img1 img1""img2 img2""img3 img3""img4 img");
         display: grid;

@@ -4,7 +4,7 @@
     z-index: 4;
     .main-buscador {
         padding: 40px;
-        background-color: #E6DDC6;
+        background-color: $color-2;
         position: sticky;
     
     .navBar li {
@@ -25,14 +25,14 @@
         
     
     &:hover{
-        color:grey;
+        color:$color-index-hover;
         text-decoration: underline;
     }
     &:active{
-        color:#dd9d4e
+        color: $color-index-active;
     }
     &::selection{
-        background-color: #7e5f5f;
+        background-color: $color-pages-active;
         color: white;
     
 }
@@ -67,7 +67,7 @@
         margin-top: 0px;
     
     &::selection{
-        background-color: #C2B8A3;
+        background-color: $color-3;
         color: black;
     }
 }

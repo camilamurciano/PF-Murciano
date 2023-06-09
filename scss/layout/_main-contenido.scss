@@ -7,7 +7,7 @@ body{
     z-index: 4;
     
 .main-section {
-    background-color: #A19882;
+    background-color: $color-1;
     padding: 35px;
 
     .navBar2 li {
@@ -22,7 +22,7 @@ body{
 
 }
 .navBar2 {
-    background-color: #A19882;
+    background-color: $color-1;
     
 }
 .navBar2 a {
@@ -30,21 +30,21 @@ body{
     color: black;
 
 &:hover{
-    color:beige;
+    color:$color-pages-hover;
     text-decoration: underline;
 }
 &:active{
-    color:#7e5f5f
+    color: $color-pages-active;
 }
 &::selection{
-    background-color: #7e5f5f;
+    background-color: $color-pages-active;
     color: white;
 }
 }
 }
 }
 .descripcion-contenido{
-    background-color: #C2B8A3;
+    background-color: $color-3;
     background-size: cover;
 
     p{
@@ -57,7 +57,7 @@ body{
     color: black;
         
     &::selection{
-        background-color: #7e5f5f;
+        background-color: $color-pages-active;
         color: white;
         }
 }
