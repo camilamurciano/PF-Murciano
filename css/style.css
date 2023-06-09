@@ -228,7 +228,7 @@ h2 {
         color: white; }
 
 .descripcion-boda {
-  background-color: #C2B8A3;
+  background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
   background-size: cover; }
   .descripcion-boda p {
     font-family: 'Roboto', sans-serif;
@@ -256,6 +256,8 @@ h2 {
       align-self: center;
       width: 812px;
       height: 437px; }
+      .galeria-boda .img-boda .familia-libreta:hover {
+        transform: scale(1.05); }
     .galeria-boda .img-boda .casados-mirandose {
       display: flex;
       align-self: flex-start;

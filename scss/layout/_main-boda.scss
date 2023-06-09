@@ -41,7 +41,7 @@
 }
 }
 .descripcion-boda{
-    background-color: $color-3;
+    background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
     background-size: cover;
 
     p{
@@ -74,8 +74,10 @@
             align-self: center;
             width: 812px;
             height: 437px;
+        &:hover{
+            transform: scale(1.05);
         }
-        
+    }
         .casados-mirandose {
             display: flex;
             align-self: flex-start;
@@ -100,3 +102,4 @@
         }
         }
         }
+    
