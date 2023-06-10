@@ -44,8 +44,33 @@ body{
 }
 }
 .descripcion-contenido{
-    background-color: $color-3;
+    background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
     background-size: cover;
+    -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+    animation: descripcion-boda 4s linear 1s infinite alternate both;
+}
+    @-webkit-keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      @keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
 
     p{
     font-family: 'Roboto', sans-serif;
@@ -61,7 +86,7 @@ body{
         color: white;
         }
 }
-}
+
 .galeria-contenido{
     width: 90%;
     margin: auto;
@@ -74,25 +99,40 @@ body{
             align-self: flex-start;
             width: 460px;
             height: 460px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .marca-2 {
             align-self: flex-end;
             width: 460px;
             height: 460px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .marca-3 {
             @extend .marca-1;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .marca-4 {
         @extend .marca-2;
+        &:hover{
+            transform: scale(1.05);
+        }
         }
         
         .marca-5 {
             @extend .marca-1;
             margin-bottom: 50px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         }
         }

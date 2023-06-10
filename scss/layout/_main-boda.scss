@@ -43,7 +43,32 @@
 .descripcion-boda{
     background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
     background-size: cover;
-
+    -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+    animation: descripcion-boda 4s linear 1s infinite alternate both;
+}
+    @-webkit-keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      @keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      
     p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -60,7 +85,7 @@
 }
 
 
-}
+
 
 .galeria-boda{
     width: 90%;
@@ -84,6 +109,9 @@
             padding-top: 30px;
             width: 553px;
             height: 834px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .mujer-mirandomarido {
@@ -91,6 +119,9 @@
             align-self: flex-end;
             width: 444px;
             height: 444px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .pareja-civil {
@@ -99,6 +130,9 @@
             margin-bottom: 50px;
             width: 800px;
             height: 385px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         }
         }

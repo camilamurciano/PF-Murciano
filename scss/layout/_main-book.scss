@@ -41,9 +41,33 @@
 }
 }
 .descripcion-book{
-    background-color: $color-3;
+    background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);;
     background-size: cover;
-
+    -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+    animation: descripcion-boda 4s linear 1s infinite alternate both;
+}
+    @-webkit-keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      @keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
     p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -58,16 +82,13 @@
         color: white;
         }
     }
-}
+
 
 .galeria-book{
-    background-color: $color-3;
-    background-size: contain;
+
     margin: auto;
     width: 90%;
     .img-book {
-        background-color: $color-3;
-        background-size: contain;
         @include grids(auto,repeat(2,1fr),repeat(4,auto),"img1 img1""img2 img2""img3 img3""img4 img");
         display: grid;
         /**
@@ -89,6 +110,9 @@
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 20px;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 .pareja-mirandose{
 
@@ -99,6 +123,9 @@
     grid-row-start: 2;
     grid-row-end: 3;
     margin-left: 20px;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 .mujer-panza{
 
@@ -109,6 +136,9 @@
     grid-row-start: 3;
     grid-row-end: 4;
     margin: 0;
+    &:hover{
+        transform: scale(1.05);
+    }
 
 }
 .pareja-mano{
@@ -120,6 +150,9 @@
     grid-row-start: 4;
     grid-row-end: 4;
     justify-self: center;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 }
 }

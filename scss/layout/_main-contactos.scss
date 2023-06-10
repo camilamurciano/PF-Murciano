@@ -38,8 +38,32 @@
 }
 }
 .mail-contacto {
-    background-color: $color-3;
-
+    background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
+    -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+    animation: descripcion-boda 4s linear 1s infinite alternate both;
+}
+    @-webkit-keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      @keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
     p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -55,4 +79,3 @@
     color: white;
 }
     }
-}

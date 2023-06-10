@@ -15,12 +15,6 @@ h3 {
 .footer-section {
     background-color: $color-2;
 
-    .footer-iconos {
-        display: flex;
-        justify-content: end;
-        
-    }
-    
     .footerBsas {
 
     p{
@@ -34,13 +28,18 @@ h3 {
         background-color: $color-pages-active;
         color: white;
     }
+}
+}
     
     }
+    .footer-iconos {
+        display: flex;
+        justify-content: end;
+    
     .whatsapp-1{
         position: fixed;
         bottom: 1px;
         right: 67px;
     
     }
-}
 }

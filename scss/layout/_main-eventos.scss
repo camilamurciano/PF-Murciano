@@ -41,8 +41,33 @@
 }
 }
 .descripcion-eventos{
-    background-color: $color-3;
+    background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
     background-size: cover;
+    -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+    animation: descripcion-boda 4s linear 1s infinite alternate both;
+}
+    @-webkit-keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
+      @keyframes descripcion-boda {
+        0% {
+          background: #a19882;
+        }
+        50% {
+          background: #E6DDC6;
+        }
+        100% {
+          background: #C2B8A3;
+        }
+      }
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -58,13 +83,13 @@ p{
     color: white;
     }
 }
-}
+
 .galeria-eventos{
     width: 90%;
     margin: auto;
     .img-eventos {
         @include flex-img(column,flex-start,30px);
-        background-color: $color-3;
+        
         display: flex;
         .nene-sonriendo {
             display: flex;
@@ -73,6 +98,9 @@ p{
             margin-bottom: 40px;
             width: 363px;
             height: 363px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .familia-sonriendo {
@@ -82,6 +110,9 @@ p{
             margin-bottom: 40px;
             width: 912px;
             height: 357px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .nene-mama {
@@ -91,6 +122,9 @@ p{
             margin-bottom: 40px;
             width: 590px;
             height: 976px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         
         .nene-boca {
@@ -99,6 +133,9 @@ p{
             margin-bottom: 50px;
             width: 584px;
             height: 776px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         }
     }

@@ -20,7 +20,37 @@ body {
     height: 125px;
     display: flex;
     justify-content: end;
-    text-shadow: 3px 3px 5px white; }
+    text-shadow: 3px 3px 5px white;
+    -webkit-animation: headerFormulario 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s 2 both;
+    animation: headerFormulario 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s 2 both; }
+
+@-webkit-keyframes headerFormulario {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1; } }
+
+@keyframes headerFormulario {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1; } }
   .headerFoto h1 {
     font-family: 'Castoro Titling', cursive;
     letter-spacing: 1px;
@@ -171,9 +201,6 @@ h3 {
 
 .footer-section {
   background-color: #E6DDC6; }
-  .footer-section .footer-iconos {
-    display: flex;
-    justify-content: end; }
   .footer-section .footerBsas p {
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -184,7 +211,11 @@ h3 {
     .footer-section .footerBsas p::selection {
       background-color: #7e5f5f;
       color: white; }
-  .footer-section .footerBsas .whatsapp-1 {
+
+.footer-iconos {
+  display: flex;
+  justify-content: end; }
+  .footer-iconos .whatsapp-1 {
     position: fixed;
     bottom: 1px;
     right: 67px; }
@@ -229,18 +260,37 @@ h2 {
 
 .descripcion-boda {
   background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
-  background-size: cover; }
-  .descripcion-boda p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black; }
-    .descripcion-boda p::selection {
-      background-color: #7e5f5f;
-      color: white; }
+  background-size: cover;
+  -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+  animation: descripcion-boda 4s linear 1s infinite alternate both; }
+
+@-webkit-keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+@keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 100px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: black; }
+  p::selection {
+    background-color: #7e5f5f;
+    color: white; }
 
 .galeria-boda {
   width: 90%;
@@ -264,17 +314,23 @@ h2 {
       padding-top: 30px;
       width: 553px;
       height: 834px; }
+      .galeria-boda .img-boda .casados-mirandose:hover {
+        transform: scale(1.05); }
     .galeria-boda .img-boda .mujer-mirandomarido {
       display: flex;
       align-self: flex-end;
       width: 444px;
       height: 444px; }
+      .galeria-boda .img-boda .mujer-mirandomarido:hover {
+        transform: scale(1.05); }
     .galeria-boda .img-boda .pareja-civil {
       display: flex;
       align-self: flex-start;
       margin-bottom: 50px;
       width: 800px;
       height: 385px; }
+      .galeria-boda .img-boda .pareja-civil:hover {
+        transform: scale(1.05); }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -315,19 +371,38 @@ h2 {
         color: white; }
 
 .descripcion-eventos {
-  background-color: #C2B8A3;
-  background-size: cover; }
-  .descripcion-eventos p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black; }
-    .descripcion-eventos p::selection {
-      background-color: #7e5f5f;
-      color: white; }
+  background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
+  background-size: cover;
+  -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+  animation: descripcion-boda 4s linear 1s infinite alternate both; }
+
+@-webkit-keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+@keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 100px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: black; }
+  p::selection {
+    background-color: #7e5f5f;
+    color: white; }
 
 .galeria-eventos {
   width: 90%;
@@ -337,7 +412,6 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     padding: 30px;
-    background-color: #C2B8A3;
     display: flex; }
     .galeria-eventos .img-eventos .nene-sonriendo {
       display: flex;
@@ -346,6 +420,8 @@ h2 {
       margin-bottom: 40px;
       width: 363px;
       height: 363px; }
+      .galeria-eventos .img-eventos .nene-sonriendo:hover {
+        transform: scale(1.05); }
     .galeria-eventos .img-eventos .familia-sonriendo {
       display: flex;
       align-self: flex-end;
@@ -353,6 +429,8 @@ h2 {
       margin-bottom: 40px;
       width: 912px;
       height: 357px; }
+      .galeria-eventos .img-eventos .familia-sonriendo:hover {
+        transform: scale(1.05); }
     .galeria-eventos .img-eventos .nene-mama {
       display: flex;
       align-self: flex-start;
@@ -360,12 +438,16 @@ h2 {
       margin-bottom: 40px;
       width: 590px;
       height: 976px; }
+      .galeria-eventos .img-eventos .nene-mama:hover {
+        transform: scale(1.05); }
     .galeria-eventos .img-eventos .nene-boca {
       display: flex;
       align-self: flex-end;
       margin-bottom: 50px;
       width: 584px;
       height: 776px; }
+      .galeria-eventos .img-eventos .nene-boca:hover {
+        transform: scale(1.05); }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -409,19 +491,38 @@ body {
         color: white; }
 
 .descripcion-contenido {
-  background-color: #C2B8A3;
-  background-size: cover; }
-  .descripcion-contenido p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black; }
-    .descripcion-contenido p::selection {
-      background-color: #7e5f5f;
-      color: white; }
+  background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
+  background-size: cover;
+  -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+  animation: descripcion-boda 4s linear 1s infinite alternate both; }
+
+@-webkit-keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+@keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 100px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: black; }
+  p::selection {
+    background-color: #7e5f5f;
+    color: white; }
 
 .galeria-contenido {
   width: 90%;
@@ -437,12 +538,22 @@ body {
       align-self: flex-start;
       width: 460px;
       height: 460px; }
+      .galeria-contenido .img-contenido .marca-1:hover, .galeria-contenido .img-contenido .marca-3:hover, .galeria-contenido .img-contenido .marca-5:hover {
+        transform: scale(1.05); }
     .galeria-contenido .img-contenido .marca-2, .galeria-contenido .img-contenido .marca-4 {
       align-self: flex-end;
       width: 460px;
       height: 460px; }
+      .galeria-contenido .img-contenido .marca-2:hover, .galeria-contenido .img-contenido .marca-4:hover {
+        transform: scale(1.05); }
+    .galeria-contenido .img-contenido .marca-3:hover {
+      transform: scale(1.05); }
+    .galeria-contenido .img-contenido .marca-4:hover {
+      transform: scale(1.05); }
     .galeria-contenido .img-contenido .marca-5 {
       margin-bottom: 50px; }
+      .galeria-contenido .img-contenido .marca-5:hover {
+        transform: scale(1.05); }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -485,19 +596,38 @@ h2 {
         color: white; }
 
 .mail-contacto {
-  background-color: #C2B8A3; }
-  .mail-contacto p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 50px;
-    margin: 0px;
-    font-size: 20px;
-    padding-bottom: 20px;
-    font-weight: 700px; }
-    .mail-contacto p::selection {
-      background-color: #7e5f5f;
-      color: white; }
+  background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
+  -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+  animation: descripcion-boda 4s linear 1s infinite alternate both; }
+
+@-webkit-keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+@keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 50px;
+  margin: 0px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 700px; }
+  p::selection {
+    background-color: #7e5f5f;
+    color: white; }
 
 input:focus {
   box-shadow: 5px 5px 5px #8e8ea0; }
@@ -549,28 +679,43 @@ h2 {
         color: white; }
 
 .descripcion-book {
-  background-color: #C2B8A3;
-  background-size: cover; }
-  .descripcion-book p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 100px;
-    margin-top: 0px;
-    font-size: 20px;
-    color: black; }
-    .descripcion-book p::selection {
-      background-color: #7e5f5f;
-      color: white; }
+  background-image: linear-gradient(to top, #a19882, #a79e88, #ada48e, #b4aa95, #bab09b, #c0b6a1, #c5bba6, #cbc1ac, #d2c8b2, #d8cfb9, #dfd6bf, #e6ddc6);
+  background-size: cover;
+  -webkit-animation: descripcion-boda 4s linear 1s infinite alternate both;
+  animation: descripcion-boda 4s linear 1s infinite alternate both; }
+
+@-webkit-keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+@keyframes descripcion-boda {
+  0% {
+    background: #a19882; }
+  50% {
+    background: #E6DDC6; }
+  100% {
+    background: #C2B8A3; } }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 100px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: black; }
+  p::selection {
+    background-color: #7e5f5f;
+    color: white; }
 
 .galeria-book {
-  background-color: #C2B8A3;
-  background-size: contain;
   margin: auto;
   width: 90%; }
   .galeria-book .img-book {
-    background-color: #C2B8A3;
-    background-size: contain;
     display: grid;
     height: auto;
     grid-template-columns: repeat(2, 1fr);
@@ -596,6 +741,8 @@ h2 {
       grid-row-start: 1;
       grid-row-end: 2;
       padding: 20px; }
+      .galeria-book .img-book .hombre-panza:hover {
+        transform: scale(1.05); }
     .galeria-book .img-book .pareja-mirandose {
       grid-area: img2;
       object-fit: cover;
@@ -604,6 +751,8 @@ h2 {
       grid-row-start: 2;
       grid-row-end: 3;
       margin-left: 20px; }
+      .galeria-book .img-book .pareja-mirandose:hover {
+        transform: scale(1.05); }
     .galeria-book .img-book .mujer-panza {
       grid-area: img3;
       object-fit: cover;
@@ -612,6 +761,8 @@ h2 {
       grid-row-start: 3;
       grid-row-end: 4;
       margin: 0; }
+      .galeria-book .img-book .mujer-panza:hover {
+        transform: scale(1.05); }
     .galeria-book .img-book .pareja-mano {
       grid-area: img4;
       object-fit: cover;
@@ -620,6 +771,8 @@ h2 {
       grid-row-start: 4;
       grid-row-end: 4;
       justify-self: center; }
+      .galeria-book .img-book .pareja-mano:hover {
+        transform: scale(1.05); }
 
 @media (max-width: 1277px) {
   .headerFormulario h1 {
