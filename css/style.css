@@ -134,6 +134,8 @@ body {
       padding-bottom: 20px;
       padding-left: 20px;
       box-shadow: 5px 5px 5px 5px white; }
+      .section-index .descripcion-index .fotoFlor:hover {
+        transform: scale(1.05); }
 
 .galeria-1 {
   width: 90%;
@@ -147,24 +149,32 @@ body {
     margin-top: 15px;
     width: 262px;
     height: 402px; }
+    .galeria-1 .corazon-embarazada:hover {
+      transform: scale(1.05); }
   .galeria-1 .mujeres-beso {
     display: flex;
     align-self: flex-end;
     margin-top: 15px;
     width: 371px;
     height: 486px; }
+    .galeria-1 .mujeres-beso:hover {
+      transform: scale(1.05); }
   .galeria-1 .mujer-mirando {
     display: flex;
     align-self: flex-start;
     margin-top: 25px;
     width: 169px;
     height: 196px; }
+    .galeria-1 .mujer-mirando:hover {
+      transform: scale(1.05); }
   .galeria-1 .hombre-nene {
     display: flex;
     align-self: flex-end;
     margin-top: 20px;
     width: 480px;
     height: 128px; }
+    .galeria-1 .hombre-nene:hover {
+      transform: scale(1.05); }
   .galeria-1 .pareja-byn {
     display: flex;
     align-self: flex-start;
@@ -172,12 +182,16 @@ body {
     margin-bottom: 40px;
     width: 396px;
     height: 182px; }
+    .galeria-1 .pareja-byn:hover {
+      transform: scale(1.05); }
   .galeria-1 .familia-feliz {
     display: flex;
     align-self: flex-end;
     margin-top: 40px;
     width: 258px;
     height: 384px; }
+    .galeria-1 .familia-feliz:hover {
+      transform: scale(1.05); }
   .galeria-1 .nene-sonriendo1 {
     display: flex;
     align-self: center;
@@ -185,6 +199,8 @@ body {
     padding-bottom: 50px;
     width: 212px;
     height: 544px; }
+    .galeria-1 .nene-sonriendo1:hover {
+      transform: scale(1.05); }
 
 h3 {
   background-color: #A19882;
@@ -201,24 +217,33 @@ h3 {
 
 .footer-section {
   background-color: #E6DDC6; }
-  .footer-section .footerBsas p {
+  .footer-section .footerBsas .footer-1 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 19px;
     letter-spacing: 1;
     color: black;
-    margin-top: 0px; }
-    .footer-section .footerBsas p::selection {
+    padding: 0px; }
+    .footer-section .footerBsas .footer-1::selection {
       background-color: #7e5f5f;
       color: white; }
-
-.footer-iconos {
-  display: flex;
-  justify-content: end; }
-  .footer-iconos .whatsapp-1 {
-    position: fixed;
-    bottom: 1px;
-    right: 67px; }
+  .footer-section .footer-iconos {
+    display: flex;
+    justify-content: end; }
+    .footer-section .footer-iconos .whatsapp-1 {
+      position: fixed;
+      bottom: 1px;
+      right: 67px; }
+      .footer-section .footer-iconos .whatsapp-1:hover {
+        transform: scale(1.05); }
+    .footer-section .footer-iconos .gmail-1 {
+      position: static; }
+      .footer-section .footer-iconos .gmail-1:hover {
+        transform: scale(1.05); }
+    .footer-section .footer-iconos .instagram-1 {
+      position: static; }
+      .footer-section .footer-iconos .instagram-1:hover {
+        transform: scale(1.05); }
 
 h2 {
   font-family: 'Castoro Titling', cursive;
@@ -226,7 +251,29 @@ h2 {
   letter-spacing: 2px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #E6DDC6; }
+  background-color: #E6DDC6;
+  -webkit-animation: h2 0.6s 3 reverse both;
+  animation: h2 0.6s 3 reverse both; }
+
+@-webkit-keyframes h2 {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    text-shadow: 1px 0 #555555, 2px 0 #555555, 3px 0 #555555, 4px 0 #555555, 5px 0 #555555, 6px 0 #555555, 7px 0 #555555, 8px 0 #555555;
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); } }
+
+@keyframes h2 {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    text-shadow: 1px 0 #555555, 2px 0 #555555, 3px 0 #555555, 4px 0 #555555, 5px 0 #555555, 6px 0 #555555, 7px 0 #555555, 8px 0 #555555;
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); } }
 
 .container-1 {
   position: sticky;

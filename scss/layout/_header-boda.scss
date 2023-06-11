@@ -5,5 +5,33 @@ h2 {
     letter-spacing: 2px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: $color-2
+    background-color: $color-2;
+    -webkit-animation: h2 0.6s 3 reverse both;
+	animation: h2 0.6s 3 reverse both;
+
     }
+    @-webkit-keyframes h2 {
+        0% {
+          text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+        100% {
+          text-shadow: 1px 0 #555555, 2px 0 #555555, 3px 0 #555555, 4px 0 #555555, 5px 0 #555555, 6px 0 #555555, 7px 0 #555555, 8px 0 #555555;
+          -webkit-transform: translateX(-8px);
+                  transform: translateX(-8px);
+        }
+      }
+      @keyframes h2 {
+        0% {
+          text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+        }
+        100% {
+          text-shadow: 1px 0 #555555, 2px 0 #555555, 3px 0 #555555, 4px 0 #555555, 5px 0 #555555, 6px 0 #555555, 7px 0 #555555, 8px 0 #555555;
+          -webkit-transform: translateX(-8px);
+                  transform: translateX(-8px);
+        }
+      }
+      

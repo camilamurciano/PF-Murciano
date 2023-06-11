@@ -15,20 +15,20 @@ h3 {
 .footer-section {
     background-color: $color-2;
 
+
     .footerBsas {
 
-    p{
+    .footer-1{
             font-family: 'Roboto', sans-serif;
             text-align: left;
             font-size: 19px;
             letter-spacing: 1;
             color: black;
-            margin-top: 0px;
+            padding: 0px;
     &::selection{
         background-color: $color-pages-active;
         color: white;
     }
-}
 }
     
     }
@@ -40,6 +40,25 @@ h3 {
         position: fixed;
         bottom: 1px;
         right: 67px;
-    
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    .gmail-1{
+        position: static;
+        &:hover{
+        transform: scale(1.05);
     }
 }
+    .instagram-1{
+        position: static;
+    &:hover{
+        transform: scale(1.05);
+    }
+    
+}
+}
+}
+
+
+
