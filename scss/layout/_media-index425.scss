@@ -13,11 +13,17 @@
         width: 200px;
         height: 340px;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujeres-beso{
         width: 290px;
         height: 390px;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-mirando{
         width: 150px;
@@ -25,6 +31,9 @@
         display: flex;
         align-self: center;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .hombre-nene{
         width: 370px;
@@ -32,11 +41,17 @@
         display: flex;
         align-self: center;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-byn{
         width: 320px;
         height: 115px;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .familia-feliz{
         width: 200px;
@@ -44,10 +59,16 @@
         display: flex;
         align-self: center;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .nene-sonriendo1{
         width: 180px;
         height: 480px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

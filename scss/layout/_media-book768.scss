@@ -10,11 +10,17 @@
         margin-bottom: 15px;
         width: 300px;
         height: 600px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-mirandose{
         display: flex;
         align-self: flex-end;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-panza{
         display: flex;
@@ -22,11 +28,17 @@
         margin-bottom: 15px;
         width: 350px;
         height: 580px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-mano{
         display: flex;
         align-self: flex-end;
         margin-bottom: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

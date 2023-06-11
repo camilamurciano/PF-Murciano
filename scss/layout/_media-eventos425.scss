@@ -17,18 +17,30 @@
     .nene-sonriendo{
         width: 290px;
         height: 290px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .familia-sonriendo{
         width: 370px;
         height: 170px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .nene-mama{
         width: 290px;
         height: 370px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .nene-boca{
         width: 320px;
         height: 400px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

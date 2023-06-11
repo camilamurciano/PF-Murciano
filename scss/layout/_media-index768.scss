@@ -200,32 +200,53 @@
     .corazon-embarazada{
         width: 210px;
         height: 360px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujeres-beso{
         width: 320px;
         height: 430px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-mirando{
         width: 150px;
         height: 180px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .hombre-nene{
         width: 420px;
         height: 90px;
         display: flex;
         align-self: center;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-byn{
         width: 340px;
         height: 135px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .familia-feliz{
         width: 215px;
         height: 345px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .nene-sonriendo1{
         width: 180px;
         height: 510px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

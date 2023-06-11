@@ -27,22 +27,34 @@
         display: flex;
         align-self: flex-end;
         width: 580px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .casados-mirandose{
         display: flex;
         align-self: center;
         margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-mirandomarido{
         display: flex;
         align-self: center;
         margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-civil{
         display: flex;
         align-self: flex-start;
         width: 650px;
         margin-left: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

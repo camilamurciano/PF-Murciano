@@ -4,14 +4,23 @@
     .pareja-mirandose{
         width: 300px;
         height: 230px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-panza{
         width: 280px;
         height: 480px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-mano{
         width: 300px;
         height: 300px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }

@@ -18,20 +18,32 @@
         .hombre-panza{
             width: 320px;
             height: 720px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         .pareja-mirandose{
             width: 400px;
             height: 300px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         .mujer-panza{
             margin-top: 15px;
             width: 420px;
             height: 700px;
             margin-bottom: 15px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         .pareja-mano{
             width: 380px;
             height: 380px;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
     }
 }

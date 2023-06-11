@@ -13,12 +13,21 @@
         margin: 0;
     .casados-mirandose{
         margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .mujer-mirandomarido{
         margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .pareja-civil{
         margin-top: 15px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 }
