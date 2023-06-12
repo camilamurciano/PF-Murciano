@@ -155,11 +155,17 @@
         align-self: center;
         width: 320px;
         height: 320px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     .familia-sonriendo{
         align-self: center;
         width: 420px;
         height: 200px;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
     }
 }
