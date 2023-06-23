@@ -91,6 +91,9 @@
     .fotoFlor{
         width: 270px;
         height: 220px;
+        &:hover{
+            transform: scale(1.05)
+        }
     }
 }
 }
